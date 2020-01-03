@@ -1,0 +1,77 @@
+/* 
+  STAASScore.strings
+  Score
+
+  Created by steve on 2017/2/20.
+  Copyright © 2017年 liuguojun. All rights reserved.
+*/
+
+"确定" = "confirm";
+"下拉刷新" = "drop-down refresh";
+"释放刷新" = "Let go to refresh";
+"正在刷新..." = "refreshing...";
+
+"游客身份验证有误" = "Guest ID have error.";
+"产品设备验证有误" = "Missing equipment verification parameters.";
+"游客和工单不匹配" = "Guest Account does not match to the Ticket.";
+"缺少工单类型参数" = "Missing Ticket type parameter.";
+"工单类型有误" = "Ticket type have error.";
+"工单id有误" = "Ticket ID have error.";
+"用户评价有误" = "Missing user rate parameter.";
+"工单有误" = "Ticket not found.";
+"图片文件为空" = "Image is empty.";
+"图片错误" = "Image is error.";
+"图片名错误" = "Image's name is error.";
+"fqaID有误" = "fqaID error";
+"fqa未找到" = "fqa not found";
+"faq评价有误" = "FAQ rate parameter is empty.";
+"用户已读" = "User has read";
+"工单已处理" = "Ticket has been accepted for processing.";
+"工单已关闭" = "Ticket has been closed.";
+"保留" = "Keep";
+"系统错误,请稍后再试" = "System error,try again";
+"其他错误" = "Other Issue";
+
+"相册" = "Photos";
+"取消" = "cancel";
+"您未打开照片权限" = "You did't' open photo permissions";
+"相机胶卷" = "Camera film";
+"返回" = "Back";
+"最多只能选择%d张图片" = "Only %d pictures can be selected";
+"本地相册" = "Local photo album";
+
+"帐号\n问题" = "Account \n Issue";
+"充值\n问题" = "Purchase \n Issue";
+"游戏\n玩法" = "Gameplay \n Issue";
+"其他" = "Other Issue";
+"请输入反馈内容" = "Please enter your issue. ";
+"您的手机号或邮箱(非必须)" = "Your email or phone (optional) ";
+"反馈历史" = "Feedback History";
+"提交问题" = "Submit issue";
+"反馈内容不能为空" = "Issue can't be empty.";
+"最多输入512个字" = "512 characters at most";
+"最多输入100个字" = "100 characters at most";
+
+"已解决" = "Solved";
+"继续提问" = "Continue Inquiry";
+"您对客服人员的帮助服务是否满意?" = "Are you satisfied with the customer service?";
+"不满意" = "Unsatisfied";
+"非常棒!" = "Great!";
+"反馈新的问题" = "New Issue";
+"该问题已解决,如有其他问题请重新提交" = "This issue has been solved, please submit a new ticket if you have any other problem.";
+
+"反馈成功" = "Feedback Submitted";
+"反馈失败" = "Feedback Failed";
+"删除成功" = "Delete Succeed";
+"删除失败" = "Delete Failed";
+"评价成功,谢谢您的评价" = "Rating submitted. Thanks for your rating.";
+"评价失败" = "Rate Failed";
+"删除" = "Delete";
+"确认删除" = "Confirm Delete";
+
+"相关截图" = "Images";
+"最多3张" = "No more than 3";
+"您的问题客服人员正在处理，请耐心等待反馈" = "We are dealing with your problem, please wait patiently for the feedback.";
+"由于您长时间未回复，该消息已自动关闭" = "Because you have not replied for a long time, the message has been closed automatically";
+"反馈问题" = "Feedback issue";
+"请求失败，请检查网络！" = "Request failed, please check your network.";
