@@ -7,32 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD4DF46423BEE3B600410B7E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF46223BEE3B500410B7E /* FBSDKLoginKit.framework */; };
-		BD4DF46523BEE3B600410B7E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF46323BEE3B500410B7E /* FBSDKCoreKit.framework */; };
-		BD4DF46D23BEED3400410B7E /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DF46B23BEED3400410B7E /* CServiceSDK.framework */; };
-		BD4DF46E23BEED3400410B7E /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD4DF46C23BEED3400410B7E /* CServiceSDK.bundle */; };
+		AA6ED6772489F0E6009E0C1B /* CSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6602489F0E6009E0C1B /* CSSDK.framework */; };
+		AA6ED6782489F0E6009E0C1B /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6612489F0E6009E0C1B /* version.md */; };
+		AA6ED6792489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6642489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle */; };
+		AA6ED67A2489F0E6009E0C1B /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6652489F0E6009E0C1B /* TwitterKitResources.bundle */; };
+		AA6ED67B2489F0E6009E0C1B /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6662489F0E6009E0C1B /* TwitterKit.framework */; };
+		AA6ED67C2489F0E6009E0C1B /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6672489F0E6009E0C1B /* TwitterCore.framework */; };
+		AA6ED67D2489F0E6009E0C1B /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6692489F0E6009E0C1B /* GoogleSignIn.bundle */; };
+		AA6ED67E2489F0E6009E0C1B /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED66A2489F0E6009E0C1B /* GoogleSignInDependencies.framework */; };
+		AA6ED67F2489F0E6009E0C1B /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED66B2489F0E6009E0C1B /* GoogleSignIn.framework */; };
+		AA6ED6802489F0E6009E0C1B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED66D2489F0E6009E0C1B /* FBSDKLoginKit.framework */; };
+		AA6ED6812489F0E6009E0C1B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED66E2489F0E6009E0C1B /* FBSDKCoreKit.framework */; };
+		AA6ED6832489F0E6009E0C1B /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6722489F0E6009E0C1B /* TraceAnalysisSDK.framework */; };
+		AA6ED6842489F0E6009E0C1B /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6742489F0E6009E0C1B /* AASAccountSDK.bundle */; };
+		AA6ED6852489F0E6009E0C1B /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6752489F0E6009E0C1B /* AASAccount.framework */; };
 		BDCE2DB123A0EEE400C80986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB023A0EEE400C80986 /* AppDelegate.m */; };
 		BDCE2DB423A0EEE400C80986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB323A0EEE400C80986 /* ViewController.m */; };
 		BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DB523A0EEE400C80986 /* Main.storyboard */; };
 		BDCE2DB923A0EEE500C80986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DB823A0EEE500C80986 /* Assets.xcassets */; };
 		BDCE2DBC23A0EEE500C80986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DBA23A0EEE500C80986 /* LaunchScreen.storyboard */; };
 		BDCE2DBF23A0EEE500C80986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DBE23A0EEE500C80986 /* main.m */; };
-		BDCE2DD223A0EF1600C80986 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DCB23A0EF1600C80986 /* AASAccountSDK.bundle */; };
-		BDCE2DD323A0EF1600C80986 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCE2DCC23A0EF1600C80986 /* AASAccount.framework */; };
-		BDCE2DD723A0EF1600C80986 /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCE2DD123A0EF1600C80986 /* TraceAnalysisSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA6ED6602489F0E6009E0C1B /* CSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSSDK.framework; sourceTree = "<group>"; };
+		AA6ED6612489F0E6009E0C1B /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
+		AA6ED6642489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		AA6ED6652489F0E6009E0C1B /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		AA6ED6662489F0E6009E0C1B /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		AA6ED6672489F0E6009E0C1B /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		AA6ED6692489F0E6009E0C1B /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		AA6ED66A2489F0E6009E0C1B /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		AA6ED66B2489F0E6009E0C1B /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		AA6ED66D2489F0E6009E0C1B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AA6ED66E2489F0E6009E0C1B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AA6ED6722489F0E6009E0C1B /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
+		AA6ED6742489F0E6009E0C1B /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
+		AA6ED6752489F0E6009E0C1B /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
 		BD19A8AB23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8AC23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD19A8AD23A2284800624D1D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8AE23A2284800624D1D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD19A8AF23A2284E00624D1D /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8B023A2284E00624D1D /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		BD4DF46223BEE3B500410B7E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		BD4DF46323BEE3B500410B7E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		BD4DF46B23BEED3400410B7E /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
-		BD4DF46C23BEED3400410B7E /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
 		BDCE2DAC23A0EEE400C80986 /* CServiceSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CServiceSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCE2DAF23A0EEE400C80986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDCE2DB023A0EEE400C80986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,9 +60,6 @@
 		BDCE2DBB23A0EEE500C80986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDCE2DBD23A0EEE500C80986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDCE2DBE23A0EEE500C80986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BDCE2DCB23A0EF1600C80986 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
-		BDCE2DCC23A0EF1600C80986 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
-		BDCE2DD123A0EF1600C80986 /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,39 +67,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCE2DD323A0EF1600C80986 /* AASAccount.framework in Frameworks */,
-				BD4DF46423BEE3B600410B7E /* FBSDKLoginKit.framework in Frameworks */,
-				BD4DF46D23BEED3400410B7E /* CServiceSDK.framework in Frameworks */,
-				BD4DF46523BEE3B600410B7E /* FBSDKCoreKit.framework in Frameworks */,
-				BDCE2DD723A0EF1600C80986 /* TraceAnalysisSDK.framework in Frameworks */,
+				AA6ED6772489F0E6009E0C1B /* CSSDK.framework in Frameworks */,
+				AA6ED67C2489F0E6009E0C1B /* TwitterCore.framework in Frameworks */,
+				AA6ED6852489F0E6009E0C1B /* AASAccount.framework in Frameworks */,
+				AA6ED6802489F0E6009E0C1B /* FBSDKLoginKit.framework in Frameworks */,
+				AA6ED6832489F0E6009E0C1B /* TraceAnalysisSDK.framework in Frameworks */,
+				AA6ED67E2489F0E6009E0C1B /* GoogleSignInDependencies.framework in Frameworks */,
+				AA6ED6812489F0E6009E0C1B /* FBSDKCoreKit.framework in Frameworks */,
+				AA6ED67B2489F0E6009E0C1B /* TwitterKit.framework in Frameworks */,
+				AA6ED67F2489F0E6009E0C1B /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD4DF46123BEE3B500410B7E /* FacebookSDK-5.6.0 */ = {
+		AA6ED65F2489F0E6009E0C1B /* CSSDK_xcode_1002_1 */ = {
 			isa = PBXGroup;
 			children = (
-				BD4DF46223BEE3B500410B7E /* FBSDKLoginKit.framework */,
-				BD4DF46323BEE3B500410B7E /* FBSDKCoreKit.framework */,
+				AA6ED6602489F0E6009E0C1B /* CSSDK.framework */,
+				AA6ED6612489F0E6009E0C1B /* version.md */,
 			);
-			path = "FacebookSDK-5.6.0";
+			path = CSSDK_xcode_1002_1;
 			sourceTree = "<group>";
 		};
-		BD4DF46A23BEED3400410B7E /* CServiceSDK-1001 */ = {
+		AA6ED6622489F0E6009E0C1B /* 3thFramework */ = {
 			isa = PBXGroup;
 			children = (
-				BD4DF46B23BEED3400410B7E /* CServiceSDK.framework */,
-				BD4DF46C23BEED3400410B7E /* CServiceSDK.bundle */,
+				AA6ED6632489F0E6009E0C1B /* Twitter-3.4.2 */,
+				AA6ED6682489F0E6009E0C1B /* GoogleSDK-5.0.2 */,
+				AA6ED66C2489F0E6009E0C1B /* Facebook-5.6.0 */,
 			);
-			path = "CServiceSDK-1001";
+			path = 3thFramework;
+			sourceTree = "<group>";
+		};
+		AA6ED6632489F0E6009E0C1B /* Twitter-3.4.2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED6642489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle */,
+				AA6ED6652489F0E6009E0C1B /* TwitterKitResources.bundle */,
+				AA6ED6662489F0E6009E0C1B /* TwitterKit.framework */,
+				AA6ED6672489F0E6009E0C1B /* TwitterCore.framework */,
+			);
+			path = "Twitter-3.4.2";
+			sourceTree = "<group>";
+		};
+		AA6ED6682489F0E6009E0C1B /* GoogleSDK-5.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED6692489F0E6009E0C1B /* GoogleSignIn.bundle */,
+				AA6ED66A2489F0E6009E0C1B /* GoogleSignInDependencies.framework */,
+				AA6ED66B2489F0E6009E0C1B /* GoogleSignIn.framework */,
+			);
+			path = "GoogleSDK-5.0.2";
+			sourceTree = "<group>";
+		};
+		AA6ED66C2489F0E6009E0C1B /* Facebook-5.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED66D2489F0E6009E0C1B /* FBSDKLoginKit.framework */,
+				AA6ED66E2489F0E6009E0C1B /* FBSDKCoreKit.framework */,
+			);
+			path = "Facebook-5.6.0";
+			sourceTree = "<group>";
+		};
+		AA6ED66F2489F0E6009E0C1B /* AvidlyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED6702489F0E6009E0C1B /* TraceAnalysisSDK_4002_1 */,
+				AA6ED6732489F0E6009E0C1B /* AASAccount_1009_2 */,
+			);
+			path = AvidlyFramework;
+			sourceTree = "<group>";
+		};
+		AA6ED6702489F0E6009E0C1B /* TraceAnalysisSDK_4002_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED6722489F0E6009E0C1B /* TraceAnalysisSDK.framework */,
+			);
+			path = TraceAnalysisSDK_4002_1;
+			sourceTree = "<group>";
+		};
+		AA6ED6732489F0E6009E0C1B /* AASAccount_1009_2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED6742489F0E6009E0C1B /* AASAccountSDK.bundle */,
+				AA6ED6752489F0E6009E0C1B /* AASAccount.framework */,
+			);
+			path = AASAccount_1009_2;
 			sourceTree = "<group>";
 		};
 		BDCE2DA323A0EEE400C80986 = {
 			isa = PBXGroup;
 			children = (
-				BD4DF46A23BEED3400410B7E /* CServiceSDK-1001 */,
+				AA6ED6622489F0E6009E0C1B /* 3thFramework */,
+				AA6ED66F2489F0E6009E0C1B /* AvidlyFramework */,
+				AA6ED65F2489F0E6009E0C1B /* CSSDK_xcode_1002_1 */,
 				BDCE2DAE23A0EEE400C80986 /* CServiceSDKDemo */,
 				BDCE2DAD23A0EEE400C80986 /* Products */,
 			);
@@ -102,7 +179,6 @@
 		BDCE2DAE23A0EEE400C80986 /* CServiceSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BDCE2DC923A0EF1600C80986 /* 3thFramework */,
 				BDCE2DAF23A0EEE400C80986 /* AppDelegate.h */,
 				BDCE2DB023A0EEE400C80986 /* AppDelegate.m */,
 				BDCE2DB223A0EEE400C80986 /* ViewController.h */,
@@ -114,25 +190,6 @@
 				BDCE2DBE23A0EEE500C80986 /* main.m */,
 			);
 			path = CServiceSDKDemo;
-			sourceTree = "<group>";
-		};
-		BDCE2DC923A0EF1600C80986 /* 3thFramework */ = {
-			isa = PBXGroup;
-			children = (
-				BD4DF46123BEE3B500410B7E /* FacebookSDK-5.6.0 */,
-				BDCE2DCA23A0EF1600C80986 /* AccountSDK */,
-				BDCE2DD123A0EF1600C80986 /* TraceAnalysisSDK.framework */,
-			);
-			path = 3thFramework;
-			sourceTree = "<group>";
-		};
-		BDCE2DCA23A0EF1600C80986 /* AccountSDK */ = {
-			isa = PBXGroup;
-			children = (
-				BDCE2DCB23A0EF1600C80986 /* AASAccountSDK.bundle */,
-				BDCE2DCC23A0EF1600C80986 /* AASAccount.framework */,
-			);
-			path = AccountSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCE2DD223A0EF1600C80986 /* AASAccountSDK.bundle in Resources */,
 				BDCE2DBC23A0EEE500C80986 /* LaunchScreen.storyboard in Resources */,
 				BDCE2DB923A0EEE500C80986 /* Assets.xcassets in Resources */,
 				BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */,
-				BD4DF46E23BEED3400410B7E /* CServiceSDK.bundle in Resources */,
+				AA6ED6782489F0E6009E0C1B /* version.md in Resources */,
+				AA6ED67A2489F0E6009E0C1B /* TwitterKitResources.bundle in Resources */,
+				AA6ED6842489F0E6009E0C1B /* AASAccountSDK.bundle in Resources */,
+				AA6ED67D2489F0E6009E0C1B /* GoogleSignIn.bundle in Resources */,
+				AA6ED6792489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +433,12 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework/FacebookSDK-5.6.0",
 					"$(PROJECT_DIR)/CServiceSDK-1001",
+					"$(PROJECT_DIR)/CSSDK_xcode_1002_1",
+					"$(PROJECT_DIR)/3thFramework/Twitter-3.4.2",
+					"$(PROJECT_DIR)/3thFramework/GoogleSDK-5.0.2",
+					"$(PROJECT_DIR)/3thFramework/Facebook-5.6.0",
+					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4002_1",
+					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_1009_2",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,6 +468,12 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework/FacebookSDK-5.6.0",
 					"$(PROJECT_DIR)/CServiceSDK-1001",
+					"$(PROJECT_DIR)/CSSDK_xcode_1002_1",
+					"$(PROJECT_DIR)/3thFramework/Twitter-3.4.2",
+					"$(PROJECT_DIR)/3thFramework/GoogleSDK-5.0.2",
+					"$(PROJECT_DIR)/3thFramework/Facebook-5.6.0",
+					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4002_1",
+					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_1009_2",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

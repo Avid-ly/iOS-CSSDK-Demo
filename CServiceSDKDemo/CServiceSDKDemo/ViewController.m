@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 #import <AASAccount/AASAccountSDK.h>
-#import <TraceAnalysisSDK/TraceAnalysisSDK.h>
-#import <CServiceSDK/CServiceSDK.h>
+#import <TraceAnalysisSDK/TraceAnalysis.h>
+#import <CSSDK/CServiceSDK.h>
 
 @interface ViewController ()
 {
