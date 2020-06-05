@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA6ED6772489F0E6009E0C1B /* CSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6602489F0E6009E0C1B /* CSSDK.framework */; };
-		AA6ED6782489F0E6009E0C1B /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6612489F0E6009E0C1B /* version.md */; };
 		AA6ED6792489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6642489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle */; };
 		AA6ED67A2489F0E6009E0C1B /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6652489F0E6009E0C1B /* TwitterKitResources.bundle */; };
 		AA6ED67B2489F0E6009E0C1B /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6662489F0E6009E0C1B /* TwitterKit.framework */; };
@@ -21,6 +19,8 @@
 		AA6ED6832489F0E6009E0C1B /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6722489F0E6009E0C1B /* TraceAnalysisSDK.framework */; };
 		AA6ED6842489F0E6009E0C1B /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6742489F0E6009E0C1B /* AASAccountSDK.bundle */; };
 		AA6ED6852489F0E6009E0C1B /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6752489F0E6009E0C1B /* AASAccount.framework */; };
+		AA6ED68B2489F3BC009E0C1B /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ED6882489F3BC009E0C1B /* CServiceSDK.framework */; };
+		AA6ED68C2489F3BC009E0C1B /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6ED6892489F3BC009E0C1B /* CServiceSDK.bundle */; };
 		BDCE2DB123A0EEE400C80986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB023A0EEE400C80986 /* AppDelegate.m */; };
 		BDCE2DB423A0EEE400C80986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB323A0EEE400C80986 /* ViewController.m */; };
 		BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DB523A0EEE400C80986 /* Main.storyboard */; };
@@ -30,8 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA6ED6602489F0E6009E0C1B /* CSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSSDK.framework; sourceTree = "<group>"; };
-		AA6ED6612489F0E6009E0C1B /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
 		AA6ED6642489F0E6009E0C1B /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
 		AA6ED6652489F0E6009E0C1B /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
 		AA6ED6662489F0E6009E0C1B /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		AA6ED6722489F0E6009E0C1B /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 		AA6ED6742489F0E6009E0C1B /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
 		AA6ED6752489F0E6009E0C1B /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
+		AA6ED6882489F3BC009E0C1B /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
+		AA6ED6892489F3BC009E0C1B /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
 		BD19A8AB23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8AC23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD19A8AD23A2284800624D1D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -67,10 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA6ED6772489F0E6009E0C1B /* CSSDK.framework in Frameworks */,
 				AA6ED67C2489F0E6009E0C1B /* TwitterCore.framework in Frameworks */,
 				AA6ED6852489F0E6009E0C1B /* AASAccount.framework in Frameworks */,
 				AA6ED6802489F0E6009E0C1B /* FBSDKLoginKit.framework in Frameworks */,
+				AA6ED68B2489F3BC009E0C1B /* CServiceSDK.framework in Frameworks */,
 				AA6ED6832489F0E6009E0C1B /* TraceAnalysisSDK.framework in Frameworks */,
 				AA6ED67E2489F0E6009E0C1B /* GoogleSignInDependencies.framework in Frameworks */,
 				AA6ED6812489F0E6009E0C1B /* FBSDKCoreKit.framework in Frameworks */,
@@ -82,15 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA6ED65F2489F0E6009E0C1B /* CSSDK_xcode_1002_1 */ = {
-			isa = PBXGroup;
-			children = (
-				AA6ED6602489F0E6009E0C1B /* CSSDK.framework */,
-				AA6ED6612489F0E6009E0C1B /* version.md */,
-			);
-			path = CSSDK_xcode_1002_1;
-			sourceTree = "<group>";
-		};
 		AA6ED6622489F0E6009E0C1B /* 3thFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,12 +148,21 @@
 			path = AASAccount_1009_2;
 			sourceTree = "<group>";
 		};
+		AA6ED6872489F3BC009E0C1B /* CServiceSDK_xcode_1002_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ED6882489F3BC009E0C1B /* CServiceSDK.framework */,
+				AA6ED6892489F3BC009E0C1B /* CServiceSDK.bundle */,
+			);
+			path = CServiceSDK_xcode_1002_1;
+			sourceTree = "<group>";
+		};
 		BDCE2DA323A0EEE400C80986 = {
 			isa = PBXGroup;
 			children = (
+				AA6ED6872489F3BC009E0C1B /* CServiceSDK_xcode_1002_1 */,
 				AA6ED6622489F0E6009E0C1B /* 3thFramework */,
 				AA6ED66F2489F0E6009E0C1B /* AvidlyFramework */,
-				AA6ED65F2489F0E6009E0C1B /* CSSDK_xcode_1002_1 */,
 				BDCE2DAE23A0EEE400C80986 /* CServiceSDKDemo */,
 				BDCE2DAD23A0EEE400C80986 /* Products */,
 			);
@@ -252,10 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6ED68C2489F3BC009E0C1B /* CServiceSDK.bundle in Resources */,
 				BDCE2DBC23A0EEE500C80986 /* LaunchScreen.storyboard in Resources */,
 				BDCE2DB923A0EEE500C80986 /* Assets.xcassets in Resources */,
 				BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */,
-				AA6ED6782489F0E6009E0C1B /* version.md in Resources */,
 				AA6ED67A2489F0E6009E0C1B /* TwitterKitResources.bundle in Resources */,
 				AA6ED6842489F0E6009E0C1B /* AASAccountSDK.bundle in Resources */,
 				AA6ED67D2489F0E6009E0C1B /* GoogleSignIn.bundle in Resources */,
@@ -439,6 +439,7 @@
 					"$(PROJECT_DIR)/3thFramework/Facebook-5.6.0",
 					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4002_1",
 					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_1009_2",
+					"$(PROJECT_DIR)/CServiceSDK_xcode_1002_1",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,6 +475,7 @@
 					"$(PROJECT_DIR)/3thFramework/Facebook-5.6.0",
 					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4002_1",
 					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_1009_2",
+					"$(PROJECT_DIR)/CServiceSDK_xcode_1002_1",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
