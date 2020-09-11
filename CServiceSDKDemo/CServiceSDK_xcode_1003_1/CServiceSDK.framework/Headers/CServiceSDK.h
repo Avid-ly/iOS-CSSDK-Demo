@@ -12,15 +12,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CServiceSDK : NSObject
 
+#pragma mark - init
+
 + (BOOL)initSDK:(NSString *)pdtId;
 
-+ (void)show:(UIViewController *)vc;
++ (BOOL)show:(UIViewController *)vc;
 
 + (void)haveNewMessage:(void (^)(BOOL haveNewMessage))completionBlock;
 
-+ (NSString *)getVersion;
+#pragma mark - util
 
 + (void)addExtraParam:(NSDictionary *)param;
+
+#pragma mark - version
+
++ (NSString *)getVersion;
 
 @end
 

@@ -7,16 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAAB553A250B67F000721E25 /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB5528250B67F000721E25 /* CServiceSDK.framework */; };
-		AAAB553B250B67F000721E25 /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAAB5529250B67F000721E25 /* CServiceSDK.bundle */; };
-		AAAB553D250B67F000721E25 /* AASAccountSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAAB552D250B67F000721E25 /* AASAccountSDK.bundle */; };
-		AAAB553E250B67F000721E25 /* AASAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB552E250B67F000721E25 /* AASAccount.framework */; };
-		AAAB5540250B67F000721E25 /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB5531250B67F000721E25 /* TraceAnalysisSDK.framework */; };
-		AAAB5541250B67F000721E25 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAAB5534250B67F000721E25 /* GoogleSignIn.bundle */; };
-		AAAB5542250B67F000721E25 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB5535250B67F000721E25 /* GoogleSignInDependencies.framework */; };
-		AAAB5543250B67F000721E25 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB5536250B67F000721E25 /* GoogleSignIn.framework */; };
-		AAAB5544250B67F000721E25 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB5538250B67F000721E25 /* FBSDKLoginKit.framework */; };
-		AAAB5545250B67F000721E25 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAB5539250B67F000721E25 /* FBSDKCoreKit.framework */; };
+		AA1373FB250B7DF100CEA8CF /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1373F5250B7DF100CEA8CF /* TraceAnalysisSDK.framework */; };
+		AA1373FC250B7DF100CEA8CF /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1373F7250B7DF100CEA8CF /* CServiceSDK.framework */; };
+		AA1373FD250B7DF100CEA8CF /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA1373F8250B7DF100CEA8CF /* CServiceSDK.bundle */; };
 		BDCE2DB123A0EEE400C80986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB023A0EEE400C80986 /* AppDelegate.m */; };
 		BDCE2DB423A0EEE400C80986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB323A0EEE400C80986 /* ViewController.m */; };
 		BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DB523A0EEE400C80986 /* Main.storyboard */; };
@@ -26,16 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AAAB5528250B67F000721E25 /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
-		AAAB5529250B67F000721E25 /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
-		AAAB552D250B67F000721E25 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AASAccountSDK.bundle; sourceTree = "<group>"; };
-		AAAB552E250B67F000721E25 /* AASAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AASAccount.framework; sourceTree = "<group>"; };
-		AAAB5531250B67F000721E25 /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
-		AAAB5534250B67F000721E25 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
-		AAAB5535250B67F000721E25 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
-		AAAB5536250B67F000721E25 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
-		AAAB5538250B67F000721E25 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		AAAB5539250B67F000721E25 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AA1373F5250B7DF100CEA8CF /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
+		AA1373F7250B7DF100CEA8CF /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
+		AA1373F8250B7DF100CEA8CF /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
 		BD19A8AB23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8AC23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD19A8AD23A2284800624D1D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -59,88 +45,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAAB5540250B67F000721E25 /* TraceAnalysisSDK.framework in Frameworks */,
-				AAAB553E250B67F000721E25 /* AASAccount.framework in Frameworks */,
-				AAAB5544250B67F000721E25 /* FBSDKLoginKit.framework in Frameworks */,
-				AAAB5542250B67F000721E25 /* GoogleSignInDependencies.framework in Frameworks */,
-				AAAB5545250B67F000721E25 /* FBSDKCoreKit.framework in Frameworks */,
-				AAAB553A250B67F000721E25 /* CServiceSDK.framework in Frameworks */,
-				AAAB5543250B67F000721E25 /* GoogleSignIn.framework in Frameworks */,
+				AA1373FC250B7DF100CEA8CF /* CServiceSDK.framework in Frameworks */,
+				AA1373FB250B7DF100CEA8CF /* TraceAnalysisSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AAAB5527250B67F000721E25 /* CServiceSDK_xcode_1003_1 */ = {
+		AA1373F0250B7DF100CEA8CF /* AvidlyFramework */ = {
 			isa = PBXGroup;
 			children = (
-				AAAB5528250B67F000721E25 /* CServiceSDK.framework */,
-				AAAB5529250B67F000721E25 /* CServiceSDK.bundle */,
-			);
-			path = CServiceSDK_xcode_1003_1;
-			sourceTree = "<group>";
-		};
-		AAAB552B250B67F000721E25 /* AvidlyFramework */ = {
-			isa = PBXGroup;
-			children = (
-				AAAB552C250B67F000721E25 /* AASAccount_xcode_1010_1 */,
-				AAAB5530250B67F000721E25 /* TraceAnalysisSDK_4004_1 */,
+				AA1373F4250B7DF100CEA8CF /* TraceAnalysisSDK_4004_1 */,
 			);
 			path = AvidlyFramework;
 			sourceTree = "<group>";
 		};
-		AAAB552C250B67F000721E25 /* AASAccount_xcode_1010_1 */ = {
+		AA1373F4250B7DF100CEA8CF /* TraceAnalysisSDK_4004_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AAAB552D250B67F000721E25 /* AASAccountSDK.bundle */,
-				AAAB552E250B67F000721E25 /* AASAccount.framework */,
-			);
-			path = AASAccount_xcode_1010_1;
-			sourceTree = "<group>";
-		};
-		AAAB5530250B67F000721E25 /* TraceAnalysisSDK_4004_1 */ = {
-			isa = PBXGroup;
-			children = (
-				AAAB5531250B67F000721E25 /* TraceAnalysisSDK.framework */,
+				AA1373F5250B7DF100CEA8CF /* TraceAnalysisSDK.framework */,
 			);
 			path = TraceAnalysisSDK_4004_1;
 			sourceTree = "<group>";
 		};
-		AAAB5532250B67F000721E25 /* 3thFramework */ = {
+		AA1373F6250B7DF100CEA8CF /* CServiceSDK_xcode_1003_1 */ = {
 			isa = PBXGroup;
 			children = (
-				AAAB5533250B67F000721E25 /* GoogleSDK-5.0.2 */,
-				AAAB5537250B67F000721E25 /* Facebook-5.6.0 */,
+				AA1373F7250B7DF100CEA8CF /* CServiceSDK.framework */,
+				AA1373F8250B7DF100CEA8CF /* CServiceSDK.bundle */,
 			);
-			path = 3thFramework;
-			sourceTree = "<group>";
-		};
-		AAAB5533250B67F000721E25 /* GoogleSDK-5.0.2 */ = {
-			isa = PBXGroup;
-			children = (
-				AAAB5534250B67F000721E25 /* GoogleSignIn.bundle */,
-				AAAB5535250B67F000721E25 /* GoogleSignInDependencies.framework */,
-				AAAB5536250B67F000721E25 /* GoogleSignIn.framework */,
-			);
-			path = "GoogleSDK-5.0.2";
-			sourceTree = "<group>";
-		};
-		AAAB5537250B67F000721E25 /* Facebook-5.6.0 */ = {
-			isa = PBXGroup;
-			children = (
-				AAAB5538250B67F000721E25 /* FBSDKLoginKit.framework */,
-				AAAB5539250B67F000721E25 /* FBSDKCoreKit.framework */,
-			);
-			path = "Facebook-5.6.0";
+			path = CServiceSDK_xcode_1003_1;
 			sourceTree = "<group>";
 		};
 		BDCE2DA323A0EEE400C80986 = {
 			isa = PBXGroup;
 			children = (
-				AAAB5532250B67F000721E25 /* 3thFramework */,
-				AAAB552B250B67F000721E25 /* AvidlyFramework */,
-				AAAB5527250B67F000721E25 /* CServiceSDK_xcode_1003_1 */,
+				AA1373F0250B7DF100CEA8CF /* AvidlyFramework */,
+				AA1373F6250B7DF100CEA8CF /* CServiceSDK_xcode_1003_1 */,
 				BDCE2DAE23A0EEE400C80986 /* CServiceSDKDemo */,
 				BDCE2DAD23A0EEE400C80986 /* Products */,
 			);
@@ -230,12 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAAB5541250B67F000721E25 /* GoogleSignIn.bundle in Resources */,
-				AAAB553B250B67F000721E25 /* CServiceSDK.bundle in Resources */,
 				BDCE2DBC23A0EEE500C80986 /* LaunchScreen.storyboard in Resources */,
-				AAAB553D250B67F000721E25 /* AASAccountSDK.bundle in Resources */,
 				BDCE2DB923A0EEE500C80986 /* Assets.xcassets in Resources */,
 				BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */,
+				AA1373FD250B7DF100CEA8CF /* CServiceSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,21 +344,8 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework/AccountSDK",
-					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework/FacebookSDK-5.6.0",
-					"$(PROJECT_DIR)/CServiceSDK-1001",
-					"$(PROJECT_DIR)/CSSDK_xcode_1002_1",
-					"$(PROJECT_DIR)/3thFramework/Twitter-3.4.2",
-					"$(PROJECT_DIR)/3thFramework/GoogleSDK-5.0.2",
-					"$(PROJECT_DIR)/3thFramework/Facebook-5.6.0",
-					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4002_1",
-					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_1009_2",
-					"$(PROJECT_DIR)/CServiceSDK_xcode_1002_1",
-					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_1",
-					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_xcode_1010_1",
 					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4004_1",
+					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_1",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,21 +370,8 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework/AccountSDK",
-					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/CServiceSDKDemo/3thFramework/FacebookSDK-5.6.0",
-					"$(PROJECT_DIR)/CServiceSDK-1001",
-					"$(PROJECT_DIR)/CSSDK_xcode_1002_1",
-					"$(PROJECT_DIR)/3thFramework/Twitter-3.4.2",
-					"$(PROJECT_DIR)/3thFramework/GoogleSDK-5.0.2",
-					"$(PROJECT_DIR)/3thFramework/Facebook-5.6.0",
-					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4002_1",
-					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_1009_2",
-					"$(PROJECT_DIR)/CServiceSDK_xcode_1002_1",
-					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_1",
-					"$(PROJECT_DIR)/AvidlyFramework/AASAccount_xcode_1010_1",
 					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4004_1",
+					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_1",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

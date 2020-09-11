@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AASAccount/AASAccountSDK.h>
+//#import <AASAccount/AASAccountSDK.h>
 #import <TraceAnalysisSDK/TraceAnalysis.h>
 #import <CServiceSDK/CServiceSDK.h>
 
@@ -62,19 +62,24 @@
     NSString *channelId = @"32400";
     NSString *appId = @"id123456789";
     
+//    统计SDK和账户SDK，至少有一个
+    
+    // 初始化 统计SDK
     [TraceAnalysis initWithProductId:productId ChannelId:channelId AppID:appId];
-
-    [AASAccountSDK initSDK:productId];
-    [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
-
-        NSLog(@"AASAccountSDK login gameGuestId:%@，loginMode:%d",model.gameGuestId,model.loginMode);
-    } errorCallback:^(NSError * _Nonnull error) {
-
-        NSLog(@"AASAccountSDK login error:%@",error);
-    }];
-    [AASAccountSDK login];
+    
+//    // 初始化 账户SDK
+//    [AASAccountSDK initSDK:productId];
+//    [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
+//
+//        NSLog(@"AASAccountSDK login gameGuestId:%@，loginMode:%d",model.gameGuestId,model.loginMode);
+//    } errorCallback:^(NSError * _Nonnull error) {
+//
+//        NSLog(@"AASAccountSDK login error:%@",error);
+//    }];
+//    [AASAccountSDK login];
     
 
+    // 初始化z 客服SDK
     BOOL succeed = [CServiceSDK initSDK:productId];
     if (succeed) {
         NSLog(@"初始化成功");
@@ -84,12 +89,13 @@
 }
 
 - (void)faqView {
+    // 显示客服页面
     [CServiceSDK show:self];
-    
 }
 
 - (void)newMessageClick {
     
+    // 查询是否有新消息
     [CServiceSDK haveNewMessage:^(BOOL haveNewMessage) {
         
         // 回到主线程处理
@@ -102,6 +108,7 @@
 }
 
 - (void)getVer {
+    // 获取 客服SDK 版本号
     NSString *ver =  [CServiceSDK getVersion];
     NSLog(@"version is %@",ver);
     dispatch_async(dispatch_get_main_queue(), ^{

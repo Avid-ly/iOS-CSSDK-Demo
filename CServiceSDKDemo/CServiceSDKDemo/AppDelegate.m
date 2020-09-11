@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <AASAccount/AASAccountSDK.h>
+//#import <AASAccount/AASAccountSDK.h>
 @interface AppDelegate ()
 
 @end
@@ -17,18 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [AASAccountSDK application:application didFinishLaunchingWithOptions:launchOptions];
+//    [AASAccountSDK application:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
     
-    [AASAccountSDK application:application
-                       openURL:url
-             sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
-                    annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
+//    [AASAccountSDK application:application openURL:url sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey] annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
     
     return YES;
 }
