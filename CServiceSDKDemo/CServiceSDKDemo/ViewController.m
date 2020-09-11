@@ -21,41 +21,50 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
+    
+    CGFloat y = 40;
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.backgroundColor = [UIColor orangeColor];
-    button.frame = CGRectMake(60, 100, 255, 40);
+    button.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
     [button setTitle:@"init" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(initSDK) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    y = button.frame.origin.y + button.frame.size.height;
     
-    
-    UIButton *button2 = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
+    UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
     button2.backgroundColor = [UIColor orangeColor];
-    button2.frame = CGRectMake(60, 200, 255, 40);
+    button2.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 60, 250, 40);
     [button2 setTitle:@"反馈问题" forState:UIControlStateNormal];
-    [button2 addTarget:self action:@selector(FeedbackView) forControlEvents:UIControlEventTouchUpInside];
+    [button2 addTarget:self action:@selector(faqView) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button2];
+    y = button2.frame.origin.y + button2.frame.size.height;
     
-    UIButton *button3 = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
-    button3.backgroundColor = [UIColor orangeColor];
-    button3.frame = CGRectMake(60, 250, 255, 40);
-    [button3 setTitle:@"用户中心" forState:UIControlStateNormal];
-    [button3 addTarget:self action:@selector(userCenter) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button3];
+    UIButton *button4 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button4.backgroundColor = [UIColor orangeColor];
+    button4.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    [button4 setTitle:@"是否有新消息" forState:UIControlStateNormal];
+    [button4 addTarget:self action:@selector(newMessageClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button4];
+    y = button4.frame.origin.y + button4.frame.size.height;
     
-    _button4 = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
+    _button4 = [UIButton buttonWithType:UIButtonTypeCustom];
     _button4.backgroundColor = [UIColor orangeColor];
-    _button4.frame = CGRectMake(60, 300, 255, 40);
+    _button4.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
     [_button4 setTitle:@"获取版本号" forState:UIControlStateNormal];
     [_button4 addTarget:self action:@selector(getVer) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_button4];
 }
 
 -(void)initSDK {
-    [TraceAnalysis initWithProductId:@"1000152" ChannelId:@"666666" AppID:nil];
+    
+    NSString *productId = @"600168";
+    NSString *channelId = @"32400";
+    NSString *appId = @"id123456789";
+    
+    [TraceAnalysis initWithProductId:productId ChannelId:channelId AppID:appId];
 
-    [AASAccountSDK initSDK:@"1000152"];
+    [AASAccountSDK initSDK:productId];
     [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
 
         NSLog(@"AASAccountSDK login gameGuestId:%@，loginMode:%d",model.gameGuestId,model.loginMode);
@@ -66,7 +75,7 @@
     [AASAccountSDK login];
     
 
-    BOOL succeed = [CServiceSDK initSDK:@"1000152"];
+    BOOL succeed = [CServiceSDK initSDK:productId];
     if (succeed) {
         NSLog(@"初始化成功");
     } else {
@@ -74,16 +83,22 @@
     }
 }
 
-- (void)FeedbackView {
-    [CServiceSDK showFeedbackView:self];
+- (void)faqView {
+    [CServiceSDK show:self];
     
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
 
-- (void)userCenter {
-    [AASAccountSDK showUserCenter:self];
+- (void)newMessageClick {
+    
+    [CServiceSDK haveNewMessage:^(BOOL haveNewMessage) {
+        
+        // 回到主线程处理
+        dispatch_async(dispatch_get_main_queue(), ^{
+            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"" message:[NSString stringWithFormat:@"是否有新消息 %@",haveNewMessage?@"YES":@"NO"] preferredStyle:UIAlertControllerStyleAlert];
+            [alertController addAction:[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleCancel handler:nil]];
+            [self presentViewController:alertController animated:YES completion:nil];
+        });
+    }];
 }
 
 - (void)getVer {
