@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA1373FB250B7DF100CEA8CF /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1373F5250B7DF100CEA8CF /* TraceAnalysisSDK.framework */; };
-		AA1373FC250B7DF100CEA8CF /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1373F7250B7DF100CEA8CF /* CServiceSDK.framework */; };
-		AA1373FD250B7DF100CEA8CF /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA1373F8250B7DF100CEA8CF /* CServiceSDK.bundle */; };
+		AA6F60C6252089D8005373EE /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6F60C4252089D8005373EE /* CServiceSDK.framework */; };
+		AA6F60C7252089D8005373EE /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA6F60C5252089D8005373EE /* CServiceSDK.bundle */; };
 		BDCE2DB123A0EEE400C80986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB023A0EEE400C80986 /* AppDelegate.m */; };
 		BDCE2DB423A0EEE400C80986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB323A0EEE400C80986 /* ViewController.m */; };
 		BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DB523A0EEE400C80986 /* Main.storyboard */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		AA1373F5250B7DF100CEA8CF /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
-		AA1373F7250B7DF100CEA8CF /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
-		AA1373F8250B7DF100CEA8CF /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
+		AA6F60C4252089D8005373EE /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
+		AA6F60C5252089D8005373EE /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
 		BD19A8AB23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8AC23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD19A8AD23A2284800624D1D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA1373FC250B7DF100CEA8CF /* CServiceSDK.framework in Frameworks */,
 				AA1373FB250B7DF100CEA8CF /* TraceAnalysisSDK.framework in Frameworks */,
+				AA6F60C6252089D8005373EE /* CServiceSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,20 +69,20 @@
 			path = TraceAnalysisSDK_4004_1;
 			sourceTree = "<group>";
 		};
-		AA1373F6250B7DF100CEA8CF /* CServiceSDK_xcode_1003_1 */ = {
+		AA6F60C3252089D8005373EE /* CServiceSDK_xcode_1003_3 */ = {
 			isa = PBXGroup;
 			children = (
-				AA1373F7250B7DF100CEA8CF /* CServiceSDK.framework */,
-				AA1373F8250B7DF100CEA8CF /* CServiceSDK.bundle */,
+				AA6F60C4252089D8005373EE /* CServiceSDK.framework */,
+				AA6F60C5252089D8005373EE /* CServiceSDK.bundle */,
 			);
-			path = CServiceSDK_xcode_1003_1;
+			path = CServiceSDK_xcode_1003_3;
 			sourceTree = "<group>";
 		};
 		BDCE2DA323A0EEE400C80986 = {
 			isa = PBXGroup;
 			children = (
+				AA6F60C3252089D8005373EE /* CServiceSDK_xcode_1003_3 */,
 				AA1373F0250B7DF100CEA8CF /* AvidlyFramework */,
-				AA1373F6250B7DF100CEA8CF /* CServiceSDK_xcode_1003_1 */,
 				BDCE2DAE23A0EEE400C80986 /* CServiceSDKDemo */,
 				BDCE2DAD23A0EEE400C80986 /* Products */,
 			);
@@ -172,10 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6F60C7252089D8005373EE /* CServiceSDK.bundle in Resources */,
 				BDCE2DBC23A0EEE500C80986 /* LaunchScreen.storyboard in Resources */,
 				BDCE2DB923A0EEE500C80986 /* Assets.xcassets in Resources */,
 				BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */,
-				AA1373FD250B7DF100CEA8CF /* CServiceSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +346,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4004_1",
 					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_1",
+					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_3",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,6 +373,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AvidlyFramework/TraceAnalysisSDK_4004_1",
 					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_1",
+					"$(PROJECT_DIR)/CServiceSDK_xcode_1003_3",
 				);
 				INFOPLIST_FILE = CServiceSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
