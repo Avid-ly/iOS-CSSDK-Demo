@@ -11,9 +11,14 @@
 #import <TraceAnalysisSDK/TraceAnalysis.h>
 #import <CServiceSDK/CServiceSDK.h>
 
+NSString *defaultProductID = @"600168";
+NSString *defaultChannelID = @"666666";
+NSString *defaultAppID = @"id123456";
+
 @interface ViewController ()
 {
     UIButton *_button4;
+    UITextField *_pdtID;
 }
 @end
 
@@ -23,6 +28,15 @@
     [super viewDidLoad];
     
     CGFloat y = 40;
+    
+    _pdtID = [[UITextField alloc]init];
+    _pdtID.backgroundColor = [UIColor whiteColor];
+    _pdtID.layer.borderWidth = 1.0f;
+    _pdtID.layer.borderColor = [UIColor colorWithRed:0xbf/255.0f green:0xbf/255.0f blue:0xbf/255.0f alpha:1].CGColor;;
+    _pdtID.placeholder = [NSString stringWithFormat:@"请输入产品ID,不填默认 %@",defaultProductID];
+    _pdtID.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    [self.view addSubview:_pdtID];
+    y = _pdtID.frame.origin.y + _pdtID.frame.size.height;
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.backgroundColor = [UIColor orangeColor];
@@ -57,35 +71,37 @@
 }
 
 -(void)initSDK {
-    
-    NSString *productId = @"600168";
-    NSString *channelId = @"32400";
-    NSString *appId = @"id123456789";
-    
-//    统计SDK和账户SDK，至少有一个
-    
-    // 初始化 统计SDK
-    [TraceAnalysis initWithProductId:productId ChannelId:channelId AppID:appId];
-    
-//    // 初始化 账户SDK
-//    [AASAccountSDK initSDK:productId];
-//    [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
-//
-//        NSLog(@"AASAccountSDK login gameGuestId:%@，loginMode:%d",model.gameGuestId,model.loginMode);
-//    } errorCallback:^(NSError * _Nonnull error) {
-//
-//        NSLog(@"AASAccountSDK login error:%@",error);
-//    }];
-//    [AASAccountSDK login];
-    
 
-    // 初始化z 客服SDK
-    BOOL succeed = [CServiceSDK initSDK:productId];
-    if (succeed) {
-        NSLog(@"初始化成功");
-    } else {
-        NSLog(@"初始化失败,请检查");
+    NSString *pid = defaultProductID;
+    if (_pdtID.text != nil && ![_pdtID.text isEqualToString:@""]) {
+        pid = _pdtID.text;
     }
+    
+    // 统计SDK和账户SDK，至少有一个
+    // 初始化统计SDK
+    [TraceAnalysis initWithProductId:pid ChannelId:defaultChannelID AppID:defaultAppID];
+    
+    // 初始化账户SDK
+    //    [AASAccountSDK initSDK:@"600168"];
+    //    [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
+    //
+    //        NSLog(@"AASAccountSDK login gameGuestId:%@，loginMode:%d",model.gameGuestId,model.loginMode);
+    //    } errorCallback:^(NSError * _Nonnull error) {
+    //
+    //        NSLog(@"AASAccountSDK login error:%@",error);
+    //    }];
+    //    [AASAccountSDK login];
+    
+    // 追加透传参数
+    NSDictionary *dic = [[NSDictionary alloc] initWithObjectsAndKeys:@"0.212.31", @"hot_version", nil];
+    [CServiceSDK addExtraParam:dic];
+    
+    BOOL succeed = [CServiceSDK initSDK:pid];
+    
+    NSString *message = succeed?@"初始化成功":@"初始化失败,请检查";
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"" message:message preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleCancel handler:nil]];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 - (void)faqView {
