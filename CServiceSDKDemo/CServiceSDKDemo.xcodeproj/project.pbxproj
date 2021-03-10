@@ -11,7 +11,6 @@
 		AA1BC6FB25C18D2800D59F0B /* TraceAnalysisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1BC6F925C18D2800D59F0B /* TraceAnalysisSDK.framework */; };
 		AAC4A2BD25F879AA0007B104 /* CServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC4A2BA25F879AA0007B104 /* CServiceSDK.framework */; };
 		AAC4A2BE25F879AA0007B104 /* CServiceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAC4A2BB25F879AA0007B104 /* CServiceSDK.bundle */; };
-		AAC4A2BF25F879AA0007B104 /* version.md in Resources */ = {isa = PBXBuildFile; fileRef = AAC4A2BC25F879AA0007B104 /* version.md */; };
 		BDCE2DB123A0EEE400C80986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB023A0EEE400C80986 /* AppDelegate.m */; };
 		BDCE2DB423A0EEE400C80986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE2DB323A0EEE400C80986 /* ViewController.m */; };
 		BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCE2DB523A0EEE400C80986 /* Main.storyboard */; };
@@ -25,7 +24,6 @@
 		AA1BC6F925C18D2800D59F0B /* TraceAnalysisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TraceAnalysisSDK.framework; sourceTree = "<group>"; };
 		AAC4A2BA25F879AA0007B104 /* CServiceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CServiceSDK.framework; sourceTree = "<group>"; };
 		AAC4A2BB25F879AA0007B104 /* CServiceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CServiceSDK.bundle; sourceTree = "<group>"; };
-		AAC4A2BC25F879AA0007B104 /* version.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = version.md; sourceTree = "<group>"; };
 		BD19A8AB23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD19A8AC23A2284000624D1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD19A8AD23A2284800624D1D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			children = (
 				AAC4A2BA25F879AA0007B104 /* CServiceSDK.framework */,
 				AAC4A2BB25F879AA0007B104 /* CServiceSDK.bundle */,
-				AAC4A2BC25F879AA0007B104 /* version.md */,
 			);
 			path = CServiceSDK_xcode_2002_1;
 			sourceTree = "<group>";
@@ -179,7 +176,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCE2DBC23A0EEE500C80986 /* LaunchScreen.storyboard in Resources */,
-				AAC4A2BF25F879AA0007B104 /* version.md in Resources */,
 				BDCE2DB923A0EEE500C80986 /* Assets.xcassets in Resources */,
 				BDCE2DB723A0EEE400C80986 /* Main.storyboard in Resources */,
 				AA1BC6FA25C18D2800D59F0B /* version.md in Resources */,
