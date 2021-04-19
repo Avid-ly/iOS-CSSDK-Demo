@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define CSERVER_SDK_VERSION @"2001"
+#define CSERVER_SDK_VERSION @"2002"
 #define CSERVER_SDK_BUILD   @"1"
-#define CSSDKVersionString  @"CSSDK_VERSION_2001.1"
+#define CSSDKVersionString  @"CSSDK_VERSION_2002.1"
