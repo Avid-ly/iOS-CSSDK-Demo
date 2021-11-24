@@ -1,0 +1,6 @@
+module Pods_CSSDKDemo {
+  umbrella header "Pods-CSSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
