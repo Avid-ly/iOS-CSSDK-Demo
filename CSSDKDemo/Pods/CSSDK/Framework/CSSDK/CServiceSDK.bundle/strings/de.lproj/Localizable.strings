@@ -16,7 +16,7 @@
 "css_string_fqa_id_param_miss" = "Fehlende FAQ-ID-Parameter";
 "css_string_fqa_no_found_or_removed" = "FAQ nicht gefunden oder bereits gelöscht";
 "css_string_fqa_evaluation_param_empty" = "FAQ-Bewertungsparameter leer";
-"css_string_feedback_question" = "Problem";
+"css_string_feedback_question" = "Kontaktiere uns";
 "css_string_feedback_history" = "Verlauf";
 "css_string_please_input_feedback_content" = "Beschreibe bitte das Problem.";
 "css_string_fqa_status_waiting_or_append" = "Warte bitte auf die Antwort des Kundenservice.";

@@ -16,7 +16,7 @@
 "css_string_fqa_id_param_miss" = "FAQ id参数缺失";
 "css_string_fqa_no_found_or_removed" = "FAQ 未找到或已移除";
 "css_string_fqa_evaluation_param_empty" = "FAQ 评价参数为空";
-"css_string_feedback_question" = "反馈问题";
+"css_string_feedback_question" = "联系客服";
 "css_string_feedback_history" = "反馈历史";
 "css_string_please_input_feedback_content" = "请描述问题内容";
 "css_string_fqa_status_waiting_or_append" = "请等待客服人员的反馈。";

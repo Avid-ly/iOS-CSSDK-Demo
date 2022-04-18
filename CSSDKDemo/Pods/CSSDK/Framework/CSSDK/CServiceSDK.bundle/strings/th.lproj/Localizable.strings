@@ -16,7 +16,7 @@
 "css_string_fqa_id_param_miss" = "ข้อมูล ID FAQ หายไป";
 "css_string_fqa_no_found_or_removed" = "ไม่พบ FAQ หรือถูกลบแล้ว";
 "css_string_fqa_evaluation_param_empty" = "ข้อมูลประเมิน FAQ ว่างเปล่า";
-"css_string_feedback_question" = "แจ้งปัญหา";
+"css_string_feedback_question" = "ติดต่อเรา";
 "css_string_feedback_history" = "ประวัติการแจ้ง";
 "css_string_please_input_feedback_content" = "โปรดอธิบายรายละเอียดของปัญหา";
 "css_string_fqa_status_waiting_or_append" = "โปรดรอเจ้าหน้าที่ฝ่ายบริการลูกค้าตอบกลับ";

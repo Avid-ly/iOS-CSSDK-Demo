@@ -97,16 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/AASDK/Framework/AASDK/AASAccountSDK.bundle"
   install_resource "${PODS_ROOT}/CSSDK/Framework/CSSDK/CServiceSDK.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FacebookSDKStrings.bundle"
-  install_resource "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/AASDK/Framework/AASDK/AASAccountSDK.bundle"
   install_resource "${PODS_ROOT}/CSSDK/Framework/CSSDK/CServiceSDK.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FacebookSDKStrings.bundle"
-  install_resource "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

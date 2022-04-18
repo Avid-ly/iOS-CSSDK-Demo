@@ -16,7 +16,7 @@
 "css_string_fqa_id_param_miss" = "FAQ id parameter is missing";
 "css_string_fqa_no_found_or_removed" = "FAQ not found or removed";
 "css_string_fqa_evaluation_param_empty" = "FAQ evaluation parameter is empty";
-"css_string_feedback_question" = "Feedback question";
+"css_string_feedback_question" = "Contact us";
 "css_string_feedback_history" = "History";
 "css_string_please_input_feedback_content" = "Please describe the problem";
 "css_string_fqa_status_waiting_or_append" = "Please wait for feedback from customer service staff.";

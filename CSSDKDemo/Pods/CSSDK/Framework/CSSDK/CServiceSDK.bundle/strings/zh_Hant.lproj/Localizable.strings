@@ -16,7 +16,7 @@
 "css_string_fqa_id_param_miss" = "FAQ id參數缺失";
 "css_string_fqa_no_found_or_removed" = "FAQ 未找到或已移除";
 "css_string_fqa_evaluation_param_empty" = "FAQ 評價參數為空";
-"css_string_feedback_question" = "反饋問題";
+"css_string_feedback_question" = "聯繫客服";
 "css_string_feedback_history" = "反饋歷史";
 "css_string_please_input_feedback_content" = "請描述問題內容";
 "css_string_fqa_status_waiting_or_append" = "請等待客服人員的反饋。";
