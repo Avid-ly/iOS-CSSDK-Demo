@@ -15,10 +15,14 @@ NSString *defaultProductID = @"600168";
 NSString *defaultChannelID = @"666666";
 NSString *defaultAppID = @"id123456";
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
 {
-    UIButton *_button4;
     UITextField *_pdtID;
+    UIButton *_button;
+    UIButton *_button1;
+    UIButton *_button2;
+    UIButton *_button4;
+    UIButton *_button5;
 }
 @end
 
@@ -34,40 +38,65 @@ NSString *defaultAppID = @"id123456";
     _pdtID.layer.borderWidth = 1.0f;
     _pdtID.layer.borderColor = [UIColor colorWithRed:0xbf/255.0f green:0xbf/255.0f blue:0xbf/255.0f alpha:1].CGColor;;
     _pdtID.placeholder = [NSString stringWithFormat:@"请输入产品ID,不填默认 %@",defaultProductID];
-    _pdtID.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    _pdtID.textColor = [UIColor blackColor];
+    _pdtID.delegate = self;
+    _pdtID.returnKeyType = UIReturnKeyDone;
     [self.view addSubview:_pdtID];
-    y = _pdtID.frame.origin.y + _pdtID.frame.size.height;
+    NSAttributedString *attrString = [[NSAttributedString alloc] initWithString:_pdtID.placeholder attributes:@{NSForegroundColorAttributeName:[UIColor grayColor], NSFontAttributeName:_pdtID.font}];
+    _pdtID.attributedPlaceholder = attrString;
+
+    _button = [UIButton buttonWithType:UIButtonTypeCustom];
+    _button.backgroundColor = [UIColor orangeColor];
+    [_button setTitle:@"init" forState:UIControlStateNormal];
+    [_button addTarget:self action:@selector(initSDK) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_button];
     
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.backgroundColor = [UIColor orangeColor];
-    button.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
-    [button setTitle:@"init" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(initSDK) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-    y = button.frame.origin.y + button.frame.size.height;
+    _button1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    _button1.backgroundColor = [UIColor orangeColor];
+    [_button1 setTitle:@"FAQ列表" forState:UIControlStateNormal];
+    [_button1 addTarget:self action:@selector(showFAQ) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_button1];
     
-    UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    button2.backgroundColor = [UIColor orangeColor];
-    button2.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 60, 250, 40);
-    [button2 setTitle:@"反馈问题" forState:UIControlStateNormal];
-    [button2 addTarget:self action:@selector(faqView) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button2];
-    y = button2.frame.origin.y + button2.frame.size.height;
-    
-    UIButton *button4 = [UIButton buttonWithType:UIButtonTypeCustom];
-    button4.backgroundColor = [UIColor orangeColor];
-    button4.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
-    [button4 setTitle:@"是否有新消息" forState:UIControlStateNormal];
-    [button4 addTarget:self action:@selector(newMessageClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button4];
-    y = button4.frame.origin.y + button4.frame.size.height;
+    _button2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    _button2.backgroundColor = [UIColor orangeColor];
+    [_button2 setTitle:@"反馈问题" forState:UIControlStateNormal];
+    [_button2 addTarget:self action:@selector(showQuestion) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_button2];
     
     _button4 = [UIButton buttonWithType:UIButtonTypeCustom];
     _button4.backgroundColor = [UIColor orangeColor];
-    _button4.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
-    [_button4 setTitle:@"获取版本号" forState:UIControlStateNormal];
-    [_button4 addTarget:self action:@selector(getVer) forControlEvents:UIControlEventTouchUpInside];
+    [_button4 setTitle:@"是否有新消息" forState:UIControlStateNormal];
+    [_button4 addTarget:self action:@selector(newMessageClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_button4];
+    
+    _button5 = [UIButton buttonWithType:UIButtonTypeCustom];
+    _button5.backgroundColor = [UIColor orangeColor];
+    [_button5 setTitle:@"获取版本号" forState:UIControlStateNormal];
+    [_button5 addTarget:self action:@selector(getVer) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_button5];
+}
+
+- (void)viewWillLayoutSubviews{
+    NSLog(@"viewWillLayoutSubviews");
+    
+    CGFloat y = 40;
+    _pdtID.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    y = CGRectGetMaxY(_pdtID.frame);
+    
+    _button.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    y = CGRectGetMaxY(_button.frame);
+    
+    _button1.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 60, 250, 40);
+    y = CGRectGetMaxY(_button1.frame);
+    
+    _button2.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    y = CGRectGetMaxY(_button2.frame);
+    
+    _button4.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    y = CGRectGetMaxY(_button4.frame);
+    
+    _button5.frame = CGRectMake(self.view.frame.size.width/2 - 250/2, y + 10, 250, 40);
+    y = CGRectGetMaxY(_button5.frame);
 }
 
 -(void)initSDK {
@@ -82,7 +111,7 @@ NSString *defaultAppID = @"id123456";
     [TraceAnalysis initWithProductId:pid ChannelId:defaultChannelID AppID:defaultAppID];
     
     // 初始化账户SDK
-    //    [AASAccountSDK initSDK:@"600168"];
+    //    [AASAccountSDK initSDK:pid];
     //    [AASAccountSDK setLoginCallback:^(AASAccountLoginModel * _Nonnull model) {
     //
     //        NSLog(@"AASAccountSDK login gameGuestId:%@，loginMode:%d",model.gameGuestId,model.loginMode);
@@ -104,9 +133,12 @@ NSString *defaultAppID = @"id123456";
     [self presentViewController:alertController animated:YES completion:nil];
 }
 
-- (void)faqView {
-    // 显示客服页面
+- (void)showFAQ {
     [CServiceSDK show:self];
+}
+
+- (void)showQuestion {
+    [CServiceSDK showQuestion:self];
 }
 
 - (void)newMessageClick {

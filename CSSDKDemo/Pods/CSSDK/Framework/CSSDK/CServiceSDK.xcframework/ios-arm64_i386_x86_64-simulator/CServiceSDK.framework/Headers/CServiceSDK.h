@@ -18,6 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (BOOL)show:(UIViewController *)vc;
 
++ (BOOL)showFAQ:(UIViewController *)vc;
+
++ (BOOL)showQuestion:(UIViewController *)vc;
+
 + (void)haveNewMessage:(void (^)(BOOL haveNewMessage))completionBlock;
 
 #pragma mark - util
