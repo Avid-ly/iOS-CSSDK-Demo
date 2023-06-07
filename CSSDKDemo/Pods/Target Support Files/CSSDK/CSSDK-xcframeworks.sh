@@ -105,5 +105,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/CSSDK/Framework/CSSDK/CServiceSDK.xcframework" "CSSDK" "framework" "ios-arm64_i386_x86_64-simulator" "ios-arm64_armv7"
+install_xcframework "${PODS_ROOT}/CSSDK/Framework/CSSDK/CServiceSDK.xcframework" "CSSDK" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 
