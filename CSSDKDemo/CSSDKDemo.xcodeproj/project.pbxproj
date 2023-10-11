@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 /* Begin PBXFileReference section */
 		42B0587235FABE905E6E4DDD /* Pods-CSSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-CSSDKDemo/Pods-CSSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8BAEA706906858E0BA4F70D5 /* Pods-CSSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-CSSDKDemo/Pods-CSSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9484F42AD56833002A213C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		AA9484F52AD56834002A213C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AAEEE62B27C4B7C500779DCB /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = usr/lib/swift/libswiftCore.tbd; sourceTree = SDKROOT; };
 		AAF9A154274211750036090D /* CSSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF9A157274211750036090D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = AAF9A14B274211750036090D;
 			productRefGroup = AAF9A155274211750036090D /* Products */;
@@ -229,6 +232,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AAF9A161274211750036090D /* Base */,
+				AA9484F42AD56833002A213C /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -237,6 +241,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AAF9A166274211770036090D /* Base */,
+				AA9484F52AD56834002A213C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -307,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
