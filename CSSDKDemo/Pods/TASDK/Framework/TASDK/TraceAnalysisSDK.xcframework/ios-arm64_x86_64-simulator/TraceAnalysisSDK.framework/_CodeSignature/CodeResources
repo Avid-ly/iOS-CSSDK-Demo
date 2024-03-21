@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TraceAnalysis.h</key>
 		<data>
-		2bjZA1PVyTd3lNAgfP17ojCaJyg=
+		DWo2Hvkt+qjGj0O56ol1uA+vqgk=
 		</data>
 		<key>Headers/TraceAnalysisDebug.h</key>
 		<data>
@@ -14,11 +14,15 @@
 		</data>
 		<key>Headers/TraceAnalysisVersion.h</key>
 		<data>
-		NbswA39cEzOYfazQ61icFjJJnRc=
+		rnlouCNzwNzJDnMb9aWoz9yYfM8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZpwCZVZaqr3InspwtKfP28koHio=
+		qA8p6de14tyJpjFf0CaYuffMyTk=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		5c+BQr8s4ycsNBeEicmAlR9kFT8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2bjZA1PVyTd3lNAgfP17ojCaJyg=
+			DWo2Hvkt+qjGj0O56ol1uA+vqgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			wlS56f5wKwxczwM7VEgsrfEd4ODIXnkSRgO/u/+gU6E=
+			YfFfejRjBaJTK+aDQG5px/4TfSJN3fKul7XkL7TgCF0=
 			</data>
 		</dict>
 		<key>Headers/TraceAnalysisDebug.h</key>
@@ -49,11 +53,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NbswA39cEzOYfazQ61icFjJJnRc=
+			rnlouCNzwNzJDnMb9aWoz9yYfM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			H1KLtNjHxQBbRSYyNMjEglvS6xLWbiajsXVmGDWCJtc=
+			dNg5iq0/9SER9chpSWMrylzZEeBS8sruGJdk+/TZbu4=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5c+BQr8s4ycsNBeEicmAlR9kFT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7SCJbTEY4m62E4HcIJYmgsoV5f9eySnwXWcvnCqahlA=
 			</data>
 		</dict>
 	</dict>

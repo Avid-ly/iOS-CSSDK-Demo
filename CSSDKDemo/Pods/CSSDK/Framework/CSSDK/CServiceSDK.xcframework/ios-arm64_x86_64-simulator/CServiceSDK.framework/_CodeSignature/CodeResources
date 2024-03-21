@@ -10,15 +10,19 @@
 		</data>
 		<key>Headers/CServiceSDKVersion.h</key>
 		<data>
-		yIFF6W5ps7h7H/dlU8L8LXaELRk=
+		iEKn8NbSqCsP28W171df14tJcQ4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0I/pnoxGbi45bQzCvKmbyjqNWpA=
+		jNJqDQvIi68XbA+bu0Hoh+YcEQg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		iZCs8t012mBFDGoIWgxf/94uEws=
+		F0wU8uzEhHXxbmTIGs9nUo5Ir/Q=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		5c+BQr8s4ycsNBeEicmAlR9kFT8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -38,22 +42,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yIFF6W5ps7h7H/dlU8L8LXaELRk=
+			iEKn8NbSqCsP28W171df14tJcQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			IroM0QE4wy8LU4a/3bJZdG7HLoMz9euyVY2guuDotTw=
+			B0viyFMwAuc/sO+hXtblTuEBVRmH7grvnXJNtHvc0+c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iZCs8t012mBFDGoIWgxf/94uEws=
+			F0wU8uzEhHXxbmTIGs9nUo5Ir/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			vcWSQ/QCwGnQ6hI4ruV0I8o92WBNQrGbLXFTCYM9EAc=
+			sfnbIz2RucO+cqygVC0ESoKvYZc6cUcIPn0U2YNMJVI=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5c+BQr8s4ycsNBeEicmAlR9kFT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			7SCJbTEY4m62E4HcIJYmgsoV5f9eySnwXWcvnCqahlA=
 			</data>
 		</dict>
 	</dict>
