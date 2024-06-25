@@ -7,71 +7,278 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		78DE407E53F1578A41CD13CF324D300C /* TASDK */ = {
+		10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 99194AC44A94C5DAF015B415E7CCAB7C /* Build configuration list for PBXAggregateTarget "TASDK" */;
+			buildConfigurationList = BFB252513C948DD31033D1BAC7447006 /* Build configuration list for PBXAggregateTarget "FBSDKLoginKit" */;
 			buildPhases = (
-				86E2AB503BDE2471A7FF2F6E70601B5D /* [CP] Copy XCFrameworks */,
+				667515A288C4446B2DF638A4813D6B3C /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
+				B19B09E57D4C8B15FEC89326928306E9 /* PBXTargetDependency */,
+			);
+			name = FBSDKLoginKit;
+		};
+		28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 835E9E650EFFDF6B14F3B05D37E77C67 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit" */;
+			buildPhases = (
+				C5B3E1F7EF8CCCD0E3E0272007A6204A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				6C043BCF73FD18A920987A95780C4967 /* PBXTargetDependency */,
+				2B69E20AA688C77ED4EE2F13EF61C65B /* PBXTargetDependency */,
+			);
+			name = FBSDKCoreKit;
+		};
+		479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D87D4FACE4F0B6778FC27DB2ECB89C2 /* Build configuration list for PBXAggregateTarget "FBAEMKit" */;
+			buildPhases = (
+				500075E3891383868F8FFC92722B4D4E /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				876341A1B186E3DCB61C5336D4FE28C6 /* PBXTargetDependency */,
+			);
+			name = FBAEMKit;
+		};
+		78DE407E53F1578A41CD13CF324D300C /* TASDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D1531B78FE80C4E170980844EBDF203 /* Build configuration list for PBXAggregateTarget "TASDK" */;
+			buildPhases = (
+				A063CD8E97AAFB74DFD241B79408D1E8 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				7E7369981A1A4BC7473CF873D2ED2A7D /* PBXTargetDependency */,
 			);
 			name = TASDK;
 		};
-		F847BB16C5A9AAC8F78EAFD76315A297 /* CSSDK */ = {
+		8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4EBAF7D734B891DBAF54DB1678AC6E1F /* Build configuration list for PBXAggregateTarget "CSSDK" */;
+			buildConfigurationList = A712F469FCA95451E54DF37169AFEE80 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit_Basics" */;
 			buildPhases = (
-				79C3484886D462784E9F98E4713CCB53 /* [CP] Copy XCFrameworks */,
+				4B44B56A262AD024E5C3AB7B3B30F720 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
+			);
+			name = FBSDKCoreKit_Basics;
+		};
+		9955007234CC082B1B9F3619C719A95C /* AASDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E1534A7D27CA907C12EC47F6C5466114 /* Build configuration list for PBXAggregateTarget "AASDK" */;
+			buildPhases = (
+				FBDBADA847FD5E7B2F12BBB948903608 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				22A7CD78D61A146DC04757C96D41CA38 /* PBXTargetDependency */,
+				827EE85FC7E7BD67E0FBCEEE30F6D98F /* PBXTargetDependency */,
+			);
+			name = AASDK;
+		};
+		F847BB16C5A9AAC8F78EAFD76315A297 /* CSSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA0CBF356A34278580E95E6AEF43505E /* Build configuration list for PBXAggregateTarget "CSSDK" */;
+			buildPhases = (
+				E1929C9D2AE074BADB307952BC01B388 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				A17474F96504F2337180D3A17EB15CC8 /* PBXTargetDependency */,
 			);
 			name = CSSDK;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5A64069E4DB519D19456AE8D93DE5E8E /* Pods-CSSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590AB1BA5AFB4CCC87A70BC03E8112C0 /* Pods-CSSDKDemo-dummy.m */; };
+		0F210494FFD1829CA44D133D8DD9AF28 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 68EA2DE161F07CA5CAC43958925090B8 /* PrivacyInfo.xcprivacy */; };
+		62D50C32514341B02BF858D4BE542599 /* Pods-CSSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D29CF7C463DFDF6F14D970BF58EDA13 /* Pods-CSSDKDemo-dummy.m */; };
+		AD2DB49723A995D2AEFDA08978DA1951 /* Pods-CSSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A36C9ED63CE6080357319F4203C70C0E /* Pods-CSSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF698C8E8FAD4D02A00486FC833F5097 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8B214228466A7679E2CCD645CC7A903F /* PrivacyInfo.xcprivacy */; };
+		D8EC3ECA434FB031543D1E043C8F455A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 473E045E6FDA84E0ECD976430A8FCEA2 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F25E5E69AD1235174A2067DE2F00826 /* PBXContainerItemProxy */ = {
+		01F66C320E7223DE76E92E04B1685AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
+			remoteInfo = FBAEMKit;
+		};
+		203987B6F20A31C941D10AB45D79191D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1181AED44064D98A74D560E4447007D4;
+			remoteInfo = "AASDK-AASDK_Privacy";
+		};
+		5183EC029ABA2781C29F1D5424B1FFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
+		543F2A05A57649DB7D1003AABDE18366 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F847BB16C5A9AAC8F78EAFD76315A297;
 			remoteInfo = CSSDK;
 		};
-		7758EDDAB4C407DE3A96942014026A46 /* PBXContainerItemProxy */ = {
+		54A0594E8EAF7914C6CFB3ED5DFA55B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
+		58952F5F370AB0B5402D9C49FE58F21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
+			remoteInfo = FBSDKCoreKit;
+		};
+		5CAC6A03B6BBFCF2B0DE32021D214CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C5885FCB0908EF785774EE52473DAB;
+			remoteInfo = FBSDKLoginKit;
+		};
+		75C5F75638FCC98EED2BB8F8358A32C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479BDBD165CD08E2159181E58CD2078F;
+			remoteInfo = FBAEMKit;
+		};
+		78FDBA76B08094D35CC85D0E51FEDAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97FE7F2BB533BCD3DFA802471B22086;
+			remoteInfo = "TASDK-TASDK_Privacy";
+		};
+		9DADA377879A00B953E90E7DCC700284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C5885FCB0908EF785774EE52473DAB;
+			remoteInfo = FBSDKLoginKit;
+		};
+		A2BAF3FC802630A20DBA4E2FF80F1D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DF3770898C76DAD8230016A31B9A00;
+			remoteInfo = "CSSDK-CSSDK_Privacy";
+		};
+		AEE13057C4389DBAD7B3E13224D2F475 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 78DE407E53F1578A41CD13CF324D300C;
 			remoteInfo = TASDK;
 		};
+		BA6AF6F782595BA3634A144AB9FAE9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA62FEAB23070050EFD4D4508D659E5;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
+		EDFE399CDF4A407C6E6430937901D32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28907903AF6DD0AD321D92CD660E7E23;
+			remoteInfo = FBSDKCoreKit;
+		};
+		EE036EAA02B5DA179026CEC83A0761EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9955007234CC082B1B9F3619C719A95C;
+			remoteInfo = AASDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13A7529C85D52F7AC3A07642C3DCD70C /* Pods-CSSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		19EAC5C6604953300343548B13EB6868 /* CServiceSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CServiceSDK.xcframework; path = Framework/CSSDK/CServiceSDK.xcframework; sourceTree = "<group>"; };
-		43C87011018084042D5DCADDE06F17EF /* CSSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CSSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		4A36333663EC46D0F9986F3F5CDFB9CD /* TASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.debug.xcconfig; sourceTree = "<group>"; };
+		02D6B6FBF830402F7579A79D8ED5B4AB /* ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist"; sourceTree = "<group>"; };
+		0A92B320A17CBA71EB7AAD2D6A3C724B /* FBAEMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.release.xcconfig; sourceTree = "<group>"; };
+		131A7F65360A3DC3E209C0695CCFADFB /* FBSDKLoginKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKLoginKit.release.xcconfig; sourceTree = "<group>"; };
+		1BC6202D9A5FF036176CC637ED878B28 /* FBSDKCoreKit_Basics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit_Basics.debug.xcconfig; sourceTree = "<group>"; };
+		1CF2E8888E433C3F900C4D9C6888FF99 /* FBAEMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAEMKit.debug.xcconfig; sourceTree = "<group>"; };
+		23DE66417AB57A0468E371433D9E732C /* ResourceBundle-TASDK_Privacy-TASDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TASDK_Privacy-TASDK-Info.plist"; sourceTree = "<group>"; };
+		2735BF7131F4B44E6A1CF6769E2D3606 /* Pods-CSSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2A7C4BFB9BADF01FF30489CB6FF4D571 /* AASDK-AASDK_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AASDK-AASDK_Privacy"; path = AASDK_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD5022A8E99D0E54C193671BEFA85C9 /* AASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AASDK.debug.xcconfig; sourceTree = "<group>"; };
+		2D13136CA42C71C17AB3E34D9C798B81 /* TASDK-TASDK_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TASDK-TASDK_Privacy"; path = TASDK_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4147A0FEE5B5568DB0BD432032FC0A /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit.xcframework; path = XCFrameworks/FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		35D5346445A5FF996EC007116F890539 /* FBSDKCoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit.release.xcconfig; sourceTree = "<group>"; };
+		411F86AC37420DF3D0EA83D8A2A34815 /* Pods-CSSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSDKDemo-resources.sh"; sourceTree = "<group>"; };
+		43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.release.xcconfig; sourceTree = "<group>"; };
+		473E045E6FDA84E0ECD976430A8FCEA2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Framework/AASDK/AASAccount.xcframework/ios-arm64/AASAccount.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		4B656391133BFBC7A275ECE01AF0B8AD /* Pods-CSSDKDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-CSSDKDemo"; path = "libPods-CSSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		583B3A63F21A7278F6064CC660A29D56 /* TraceAnalysisSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TraceAnalysisSDK.xcframework; path = Framework/TASDK/TraceAnalysisSDK.xcframework; sourceTree = "<group>"; };
-		590AB1BA5AFB4CCC87A70BC03E8112C0 /* Pods-CSSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		630479CABA0315B88B2BAC0C8675B704 /* CServiceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CServiceSDK.bundle; path = Framework/CSSDK/CServiceSDK.bundle; sourceTree = "<group>"; };
-		759D66F37E47AE7D3D5506620A152603 /* Pods-CSSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		94EE8239841D979322DED4E05062C256 /* Pods-CSSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSDKDemo-resources.sh"; sourceTree = "<group>"; };
+		4D29CF7C463DFDF6F14D970BF58EDA13 /* Pods-CSSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		5143E7348AA3743462A1C350F4264368 /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKLoginKit.xcframework; path = XCFrameworks/FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		5A1427BB6FDCE86417B33E60203BF9C3 /* FBSDKLoginKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKLoginKit.debug.xcconfig; sourceTree = "<group>"; };
+		5A2604B6D8236BEE418E933992FF2A18 /* FBSDKCoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit.debug.xcconfig; sourceTree = "<group>"; };
+		5F5F244B73871AD59B98FC3EDE23AF1B /* FBAEMKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBAEMKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		606668F7ABB0889242DF1F742A7F97A9 /* FBSDKLoginKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKLoginKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		68EA2DE161F07CA5CAC43958925090B8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Framework/TASDK/TraceAnalysisSDK.xcframework/ios-arm64/TraceAnalysisSDK.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSDK.release.xcconfig; sourceTree = "<group>"; };
+		7A5FAFD49A7BBA3AE6A2DFEB3572D171 /* TASDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TASDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		8457A7FDB342F95EC573189F941688F9 /* AASAccountSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AASAccountSDK.bundle; path = Framework/AASDK/AASAccountSDK.bundle; sourceTree = "<group>"; };
+		8B214228466A7679E2CCD645CC7A903F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Framework/CSSDK/CServiceSDK.xcframework/ios-arm64/CServiceSDK.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		95FF7BAD3BAB73AF10C4E2E8369F06F8 /* Pods-CSSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B20FAA03F7A1132768A6DCA10442DEB5 /* Pods-CSSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D447B4C16F119BF72F45D9442E5F44E9 /* CSSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSDK.debug.xcconfig; sourceTree = "<group>"; };
-		D4C27C5AFED5FCBD4D87C0CFE788EC97 /* Pods-CSSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		DED968F2BD67B5E5567A8BC862A196BA /* TASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.release.xcconfig; sourceTree = "<group>"; };
-		DF4ADBC2E99A2982FCB0AE2559652663 /* CSSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSDK.release.xcconfig; sourceTree = "<group>"; };
-		E9959F0AD4897FA979E54B3873D54ECD /* TASDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TASDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSDK.debug.xcconfig; sourceTree = "<group>"; };
+		A354DFEC4D73E4F34FDA2C944B26CA87 /* Pods-CSSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A36C9ED63CE6080357319F4203C70C0E /* Pods-CSSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		A7EEBD21251865A696DD94CD7A8104B0 /* AASAccount.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AASAccount.xcframework; path = Framework/AASDK/AASAccount.xcframework; sourceTree = "<group>"; };
+		ABA4851F22EB09ECE1FA5ACD0C099DD7 /* FBAEMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAEMKit.xcframework; path = XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
+		B698402F6625E8E04459BC2D5ACCA357 /* TraceAnalysisSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TraceAnalysisSDK.xcframework; path = Framework/TASDK/TraceAnalysisSDK.xcframework; sourceTree = "<group>"; };
+		BEDAE20565F1A838A3977CB3A5C62B8C /* AASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AASDK.release.xcconfig; sourceTree = "<group>"; };
+		BF0607AE9134E9352798C32E08E78C3C /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBSDKCoreKit_Basics.xcframework; path = XCFrameworks/FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
+		C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TASDK.debug.xcconfig; sourceTree = "<group>"; };
+		C3379D25ED56794FE22FF7A1FC12DAB2 /* FBSDKCoreKit_Basics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit_Basics.release.xcconfig; sourceTree = "<group>"; };
+		CF0B1A564AA556B2B5F9FB16FF69B72B /* ResourceBundle-AASDK_Privacy-AASDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AASDK_Privacy-AASDK-Info.plist"; sourceTree = "<group>"; };
+		D14DF308917922BBA679775203DB1AEA /* FBSDKCoreKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKCoreKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		D61BECC7116FDBC352C0E8FCDD73F76F /* CServiceSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CServiceSDK.bundle; path = Framework/CSSDK/CServiceSDK.bundle; sourceTree = "<group>"; };
+		D6CC255BE45CCDBB01921B1E40A6BC48 /* AASDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AASDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		DB434A96D83CD9CC38005FA6D1553D2D /* CServiceSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CServiceSDK.xcframework; path = Framework/CSSDK/CServiceSDK.xcframework; sourceTree = "<group>"; };
+		DC21B3CBED8D8F30E800AEE542FEA055 /* Pods-CSSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E0CC91E392E8B53E0715CC3E4D9AF4CE /* Pods-CSSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E99A01DA8135EC01E51B67BBC49A7787 /* FBSDKCoreKit_Basics-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FBSDKCoreKit_Basics-xcframeworks.sh"; sourceTree = "<group>"; };
+		EB842E6D63F3D08989D0281C94C213AB /* CSSDK-CSSDK_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CSSDK-CSSDK_Privacy"; path = CSSDK_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44667E2D94A434FE98F3EBCBBAF2FF0 /* Pods-CSSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSDKDemo.modulemap"; sourceTree = "<group>"; };
+		FF4FBC035AE8A751F23EEBDE383EFC4F /* CSSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "CSSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		293D5CAD1B2C03DD7A0A346FB1694DE0 /* Frameworks */ = {
+		3F8A7A0740F94965A2FC806578092E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546B3153B8BFCEC730C373E38281D8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCF68E465672FEE49D82F28E440233B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA8D7AD2EFF4E024A7B67FAD201E44A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,94 +288,232 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		007F4E637EAAEF992AEFE0ADE29C2C46 /* Frameworks */ = {
+		00C6C4F76B94C14DE1E7AFC038682633 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				583B3A63F21A7278F6064CC660A29D56 /* TraceAnalysisSDK.xcframework */,
+				D14DF308917922BBA679775203DB1AEA /* FBSDKCoreKit-xcframeworks.sh */,
+				5A2604B6D8236BEE418E933992FF2A18 /* FBSDKCoreKit.debug.xcconfig */,
+				35D5346445A5FF996EC007116F890539 /* FBSDKCoreKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSDKCoreKit";
+			sourceTree = "<group>";
+		};
+		11CDE6398D6CFD3A57BB1B72EDBC81B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB434A96D83CD9CC38005FA6D1553D2D /* CServiceSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		097DFA3CCE0B3095628EEC230D782D09 /* Resources */ = {
+		1E74BB9D861A61AF14AECFE955325A8D /* CSSDK */ = {
 			isa = PBXGroup;
 			children = (
-				630479CABA0315B88B2BAC0C8675B704 /* CServiceSDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		272DCFDB37E2061822C382B7A6C63473 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6FC8024B9E75CB2677EACF4CAE5E4DC9 /* CSSDK */,
-				89E3A5F959EB32623864B0F19CA2087D /* TASDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2A9A21D0D82D4736710A052D95B64B70 /* Pods-CSSDKDemo */ = {
-			isa = PBXGroup;
-			children = (
-				13A7529C85D52F7AC3A07642C3DCD70C /* Pods-CSSDKDemo-acknowledgements.markdown */,
-				D4C27C5AFED5FCBD4D87C0CFE788EC97 /* Pods-CSSDKDemo-acknowledgements.plist */,
-				590AB1BA5AFB4CCC87A70BC03E8112C0 /* Pods-CSSDKDemo-dummy.m */,
-				94EE8239841D979322DED4E05062C256 /* Pods-CSSDKDemo-resources.sh */,
-				759D66F37E47AE7D3D5506620A152603 /* Pods-CSSDKDemo.debug.xcconfig */,
-				B20FAA03F7A1132768A6DCA10442DEB5 /* Pods-CSSDKDemo.release.xcconfig */,
-			);
-			name = "Pods-CSSDKDemo";
-			path = "Target Support Files/Pods-CSSDKDemo";
-			sourceTree = "<group>";
-		};
-		6FC8024B9E75CB2677EACF4CAE5E4DC9 /* CSSDK */ = {
-			isa = PBXGroup;
-			children = (
-				E0F552600DE88D1C7183C50AB7E1146D /* Frameworks */,
-				097DFA3CCE0B3095628EEC230D782D09 /* Resources */,
-				C057795835CA68F8301BD89F7845EC38 /* Support Files */,
+				11CDE6398D6CFD3A57BB1B72EDBC81B2 /* Frameworks */,
+				7B48BE80D8C9F51892E9ECC485635BB3 /* Resources */,
+				B0C01F28690A2727BD7688C0121F6BD4 /* Support Files */,
 			);
 			name = CSSDK;
 			path = CSSDK;
 			sourceTree = "<group>";
 		};
-		7660D5ECE55E3430DF4E64646E8CF73F /* Products */ = {
+		2D8FEFEF450B44DA280A7C7E7359A250 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B656391133BFBC7A275ECE01AF0B8AD /* Pods-CSSDKDemo */,
+				2E4147A0FEE5B5568DB0BD432032FC0A /* FBSDKCoreKit.xcframework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		89E3A5F959EB32623864B0F19CA2087D /* TASDK */ = {
+		39C000CB9C573CE11205B094362148E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				007F4E637EAAEF992AEFE0ADE29C2C46 /* Frameworks */,
-				90006EA8B4F40E1A9DC64C63EB860005 /* Support Files */,
+				E99A01DA8135EC01E51B67BBC49A7787 /* FBSDKCoreKit_Basics-xcframeworks.sh */,
+				1BC6202D9A5FF036176CC637ED878B28 /* FBSDKCoreKit_Basics.debug.xcconfig */,
+				C3379D25ED56794FE22FF7A1FC12DAB2 /* FBSDKCoreKit_Basics.release.xcconfig */,
 			);
-			name = TASDK;
-			path = TASDK;
+			name = "Support Files";
+			path = "../Target Support Files/FBSDKCoreKit_Basics";
 			sourceTree = "<group>";
 		};
-		90006EA8B4F40E1A9DC64C63EB860005 /* Support Files */ = {
+		3F17EE41A607A22015C00C6FA4930CA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9959F0AD4897FA979E54B3873D54ECD /* TASDK-xcframeworks.sh */,
-				4A36333663EC46D0F9986F3F5CDFB9CD /* TASDK.debug.xcconfig */,
-				DED968F2BD67B5E5567A8BC862A196BA /* TASDK.release.xcconfig */,
+				BF0607AE9134E9352798C32E08E78C3C /* FBSDKCoreKit_Basics.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60E53D760CAD8A4F80FC931E1BC22440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				606668F7ABB0889242DF1F742A7F97A9 /* FBSDKLoginKit-xcframeworks.sh */,
+				5A1427BB6FDCE86417B33E60203BF9C3 /* FBSDKLoginKit.debug.xcconfig */,
+				131A7F65360A3DC3E209C0695CCFADFB /* FBSDKLoginKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSDKLoginKit";
+			sourceTree = "<group>";
+		};
+		6600447FB1E8A74EABD6CCC99026B13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7EEBD21251865A696DD94CD7A8104B0 /* AASAccount.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		673D2AF98731C0FB59157B13F3BDD62C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68EA2DE161F07CA5CAC43958925090B8 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A7D7277AD83E4573A91EBE76A7A6677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4851F22EB09ECE1FA5ACD0C099DD7 /* FBAEMKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA05671B8D782269048748393349EB4 /* FBSDKCoreKit_Basics */ = {
+			isa = PBXGroup;
+			children = (
+				3F17EE41A607A22015C00C6FA4930CA5 /* Frameworks */,
+				39C000CB9C573CE11205B094362148E4 /* Support Files */,
+			);
+			name = FBSDKCoreKit_Basics;
+			path = FBSDKCoreKit_Basics;
+			sourceTree = "<group>";
+		};
+		75634CD6270D48CE0F57466BD1DBE91D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC47A0C2B6EA29C0833D6166F265816A /* Pods-CSSDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B48BE80D8C9F51892E9ECC485635BB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D61BECC7116FDBC352C0E8FCDD73F76F /* CServiceSDK.bundle */,
+				8B214228466A7679E2CCD645CC7A903F /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8D0EE1E734AD7A3F2A642CB1997E7313 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DE66417AB57A0468E371433D9E732C /* ResourceBundle-TASDK_Privacy-TASDK-Info.plist */,
+				7A5FAFD49A7BBA3AE6A2DFEB3572D171 /* TASDK-xcframeworks.sh */,
+				C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */,
+				43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TASDK";
 			sourceTree = "<group>";
 		};
-		C057795835CA68F8301BD89F7845EC38 /* Support Files */ = {
+		9590C9BAB31449DFA6CF7E6B32CF49E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				43C87011018084042D5DCADDE06F17EF /* CSSDK-xcframeworks.sh */,
-				D447B4C16F119BF72F45D9442E5F44E9 /* CSSDK.debug.xcconfig */,
-				DF4ADBC2E99A2982FCB0AE2559652663 /* CSSDK.release.xcconfig */,
+				5F5F244B73871AD59B98FC3EDE23AF1B /* FBAEMKit-xcframeworks.sh */,
+				1CF2E8888E433C3F900C4D9C6888FF99 /* FBAEMKit.debug.xcconfig */,
+				0A92B320A17CBA71EB7AAD2D6A3C724B /* FBAEMKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBAEMKit";
+			sourceTree = "<group>";
+		};
+		9A7CEA2DA3833AEFE01438D4DD3D06D2 /* FBAEMKit */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D7277AD83E4573A91EBE76A7A6677 /* Frameworks */,
+				9590C9BAB31449DFA6CF7E6B32CF49E4 /* Support Files */,
+			);
+			name = FBAEMKit;
+			path = FBAEMKit;
+			sourceTree = "<group>";
+		};
+		A9260C8E90613D8ED4BA99E65F5EEC30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5143E7348AA3743462A1C350F4264368 /* FBSDKLoginKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABACCF8C0D2CBEB96C1065F06D6FF22D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8457A7FDB342F95EC573189F941688F9 /* AASAccountSDK.bundle */,
+				473E045E6FDA84E0ECD976430A8FCEA2 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0C01F28690A2727BD7688C0121F6BD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FBC035AE8A751F23EEBDE383EFC4F /* CSSDK-xcframeworks.sh */,
+				9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */,
+				71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */,
+				02D6B6FBF830402F7579A79D8ED5B4AB /* ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CSSDK";
+			sourceTree = "<group>";
+		};
+		B3AA37587A1E20A924E5447731B8883D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C4BFB9BADF01FF30489CB6FF4D571 /* AASDK-AASDK_Privacy */,
+				EB842E6D63F3D08989D0281C94C213AB /* CSSDK-CSSDK_Privacy */,
+				4B656391133BFBC7A275ECE01AF0B8AD /* Pods-CSSDKDemo */,
+				2D13136CA42C71C17AB3E34D9C798B81 /* TASDK-TASDK_Privacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62596F277511E6AAEFB79C5CE1365A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBFD5121C564FC85AD25DC2E6F341650 /* AASDK */,
+				1E74BB9D861A61AF14AECFE955325A8D /* CSSDK */,
+				9A7CEA2DA3833AEFE01438D4DD3D06D2 /* FBAEMKit */,
+				BD9F9078EE16874AE1160994CB9A5CE8 /* FBSDKCoreKit */,
+				6CA05671B8D782269048748393349EB4 /* FBSDKCoreKit_Basics */,
+				DC87F5CB44E8F9F2992BE0003CB9B0DE /* FBSDKLoginKit */,
+				E43DDCDDF42AEE059118968ADC86EE8F /* TASDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD9F9078EE16874AE1160994CB9A5CE8 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D8FEFEF450B44DA280A7C7E7359A250 /* Frameworks */,
+				00C6C4F76B94C14DE1E7AFC038682633 /* Support Files */,
+			);
+			name = FBSDKCoreKit;
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		CF01E82FF4746B9FB1DABFCA4F57A5CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC255BE45CCDBB01921B1E40A6BC48 /* AASDK-xcframeworks.sh */,
+				2BD5022A8E99D0E54C193671BEFA85C9 /* AASDK.debug.xcconfig */,
+				BEDAE20565F1A838A3977CB3A5C62B8C /* AASDK.release.xcconfig */,
+				CF0B1A564AA556B2B5F9FB16FF69B72B /* ResourceBundle-AASDK_Privacy-AASDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AASDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -176,18 +521,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				272DCFDB37E2061822C382B7A6C63473 /* Pods */,
-				7660D5ECE55E3430DF4E64646E8CF73F /* Products */,
-				D83E4112DCA42751B5F2B492A03BD97D /* Targets Support Files */,
+				B62596F277511E6AAEFB79C5CE1365A1 /* Pods */,
+				B3AA37587A1E20A924E5447731B8883D /* Products */,
+				75634CD6270D48CE0F57466BD1DBE91D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D83E4112DCA42751B5F2B492A03BD97D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A9A21D0D82D4736710A052D95B64B70 /* Pods-CSSDKDemo */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -197,40 +534,146 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0F552600DE88D1C7183C50AB7E1146D /* Frameworks */ = {
+		DBFD5121C564FC85AD25DC2E6F341650 /* AASDK */ = {
 			isa = PBXGroup;
 			children = (
-				19EAC5C6604953300343548B13EB6868 /* CServiceSDK.xcframework */,
+				6600447FB1E8A74EABD6CCC99026B13F /* Frameworks */,
+				ABACCF8C0D2CBEB96C1065F06D6FF22D /* Resources */,
+				CF01E82FF4746B9FB1DABFCA4F57A5CB /* Support Files */,
+			);
+			name = AASDK;
+			path = AASDK;
+			sourceTree = "<group>";
+		};
+		DC87F5CB44E8F9F2992BE0003CB9B0DE /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9260C8E90613D8ED4BA99E65F5EEC30 /* Frameworks */,
+				60E53D760CAD8A4F80FC931E1BC22440 /* Support Files */,
+			);
+			name = FBSDKLoginKit;
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		DDA9FF2E77940BF9F09F4FE4AE048065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B698402F6625E8E04459BC2D5ACCA357 /* TraceAnalysisSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E43DDCDDF42AEE059118968ADC86EE8F /* TASDK */ = {
+			isa = PBXGroup;
+			children = (
+				DDA9FF2E77940BF9F09F4FE4AE048065 /* Frameworks */,
+				673D2AF98731C0FB59157B13F3BDD62C /* Resources */,
+				8D0EE1E734AD7A3F2A642CB1997E7313 /* Support Files */,
+			);
+			name = TASDK;
+			path = TASDK;
+			sourceTree = "<group>";
+		};
+		EC47A0C2B6EA29C0833D6166F265816A /* Pods-CSSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F44667E2D94A434FE98F3EBCBBAF2FF0 /* Pods-CSSDKDemo.modulemap */,
+				95FF7BAD3BAB73AF10C4E2E8369F06F8 /* Pods-CSSDKDemo-acknowledgements.markdown */,
+				A354DFEC4D73E4F34FDA2C944B26CA87 /* Pods-CSSDKDemo-acknowledgements.plist */,
+				4D29CF7C463DFDF6F14D970BF58EDA13 /* Pods-CSSDKDemo-dummy.m */,
+				E0CC91E392E8B53E0715CC3E4D9AF4CE /* Pods-CSSDKDemo-frameworks.sh */,
+				411F86AC37420DF3D0EA83D8A2A34815 /* Pods-CSSDKDemo-resources.sh */,
+				A36C9ED63CE6080357319F4203C70C0E /* Pods-CSSDKDemo-umbrella.h */,
+				2735BF7131F4B44E6A1CF6769E2D3606 /* Pods-CSSDKDemo.debug.xcconfig */,
+				DC21B3CBED8D8F30E800AEE542FEA055 /* Pods-CSSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-CSSDKDemo";
+			path = "Target Support Files/Pods-CSSDKDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C2DC6351E743A744E0D5A6875F599C01 /* Headers */ = {
+		C3D918B82CE4EB0E8895925124CF2471 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2DB49723A995D2AEFDA08978DA1951 /* Pods-CSSDKDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DE90A2D0DDD364AE66DB2D052786B804 /* Pods-CSSDKDemo */ = {
+		1181AED44064D98A74D560E4447007D4 /* AASDK-AASDK_Privacy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF842A2A2217636A6E251EEA30D79B0B /* Build configuration list for PBXNativeTarget "Pods-CSSDKDemo" */;
+			buildConfigurationList = 15D317AA8E09C5ABE8061C3B1F24337B /* Build configuration list for PBXNativeTarget "AASDK-AASDK_Privacy" */;
 			buildPhases = (
-				C2DC6351E743A744E0D5A6875F599C01 /* Headers */,
-				2FD07E7615BAEF9E2A9E21E1617BC41A /* Sources */,
-				293D5CAD1B2C03DD7A0A346FB1694DE0 /* Frameworks */,
+				9E94E21D042579A8635DA5A32367CA85 /* Sources */,
+				546B3153B8BFCEC730C373E38281D8D1 /* Frameworks */,
+				D51FCB5DF9CCD2A3A8357AFC77F1DA92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B8C8CD0AB79F141C2E93372CA4828D44 /* PBXTargetDependency */,
-				304558F08DBDF993BC4F6B9E9BF222F1 /* PBXTargetDependency */,
+			);
+			name = "AASDK-AASDK_Privacy";
+			productName = AASDK_Privacy;
+			productReference = 2A7C4BFB9BADF01FF30489CB6FF4D571 /* AASDK-AASDK_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		45DF3770898C76DAD8230016A31B9A00 /* CSSDK-CSSDK_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3E34AC7BC539108F72AE81C0CC3CE1 /* Build configuration list for PBXNativeTarget "CSSDK-CSSDK_Privacy" */;
+			buildPhases = (
+				EFD4962B7F26C67AD927C798402DBB58 /* Sources */,
+				7DCF68E465672FEE49D82F28E440233B /* Frameworks */,
+				27475F4F40B21F7CCC77051DC5F2A759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSSDK-CSSDK_Privacy";
+			productName = CSSDK_Privacy;
+			productReference = EB842E6D63F3D08989D0281C94C213AB /* CSSDK-CSSDK_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D97FE7F2BB533BCD3DFA802471B22086 /* TASDK-TASDK_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88952E31C3810DE299458BA16E9F0634 /* Build configuration list for PBXNativeTarget "TASDK-TASDK_Privacy" */;
+			buildPhases = (
+				6E9EBF10C287B51F99D2D343FAFE6708 /* Sources */,
+				EAA8D7AD2EFF4E024A7B67FAD201E44A /* Frameworks */,
+				75017934E5F4CBD40BEFE2D483E26F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TASDK-TASDK_Privacy";
+			productName = TASDK_Privacy;
+			productReference = 2D13136CA42C71C17AB3E34D9C798B81 /* TASDK-TASDK_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DE90A2D0DDD364AE66DB2D052786B804 /* Pods-CSSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD37583889E92671C37CFA42B3C57BA /* Build configuration list for PBXNativeTarget "Pods-CSSDKDemo" */;
+			buildPhases = (
+				C3D918B82CE4EB0E8895925124CF2471 /* Headers */,
+				7B1BD7DC78275080D7D2A7CF61E03B49 /* Sources */,
+				3F8A7A0740F94965A2FC806578092E19 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C14F9E120D2593F0E8D81F0EAD443D0 /* PBXTargetDependency */,
+				3ACB97C3DF3B262C3A3218EBFBE96E1F /* PBXTargetDependency */,
+				899ED065679157427DE513697D50EEE9 /* PBXTargetDependency */,
+				F5AA3414C1A6702DA7D7F3F9BDDC68F0 /* PBXTargetDependency */,
+				5D12294899DDF17B2080CC3F1B11BF1D /* PBXTargetDependency */,
+				8F6CF772033AF3F76FC6E1F067EF6F5A /* PBXTargetDependency */,
+				6B55A0F78E72ACA92CDFB721269D2003 /* PBXTargetDependency */,
 			);
 			name = "Pods-CSSDKDemo";
 			productName = "Pods-CSSDKDemo";
@@ -255,36 +698,105 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7660D5ECE55E3430DF4E64646E8CF73F /* Products */;
+			productRefGroup = B3AA37587A1E20A924E5447731B8883D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9955007234CC082B1B9F3619C719A95C /* AASDK */,
+				1181AED44064D98A74D560E4447007D4 /* AASDK-AASDK_Privacy */,
 				F847BB16C5A9AAC8F78EAFD76315A297 /* CSSDK */,
+				45DF3770898C76DAD8230016A31B9A00 /* CSSDK-CSSDK_Privacy */,
+				479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */,
+				28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */,
+				8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */,
+				10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */,
 				DE90A2D0DDD364AE66DB2D052786B804 /* Pods-CSSDKDemo */,
 				78DE407E53F1578A41CD13CF324D300C /* TASDK */,
+				D97FE7F2BB533BCD3DFA802471B22086 /* TASDK-TASDK_Privacy */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		27475F4F40B21F7CCC77051DC5F2A759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF698C8E8FAD4D02A00486FC833F5097 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75017934E5F4CBD40BEFE2D483E26F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F210494FFD1829CA44D133D8DD9AF28 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51FCB5DF9CCD2A3A8357AFC77F1DA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EC3ECA434FB031543D1E043C8F455A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		79C3484886D462784E9F98E4713CCB53 /* [CP] Copy XCFrameworks */ = {
+		4B44B56A262AD024E5C3AB7B3B30F720 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/CSSDK/CSSDK-xcframeworks-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics-xcframeworks-input-files.xcfilelist",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/CSSDK/CSSDK-xcframeworks-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/CSSDK/CSSDK-xcframeworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86E2AB503BDE2471A7FF2F6E70601B5D /* [CP] Copy XCFrameworks */ = {
+		500075E3891383868F8FFC92722B4D4E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBAEMKit/FBAEMKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBAEMKit/FBAEMKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBAEMKit/FBAEMKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667515A288C4446B2DF638A4813D6B3C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBSDKLoginKit/FBSDKLoginKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A063CD8E97AAFB74DFD241B79408D1E8 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,43 +813,193 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/TASDK/TASDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C5B3E1F7EF8CCCD0E3E0272007A6204A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1929C9D2AE074BADB307952BC01B388 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/CSSDK/CSSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/CSSDK/CSSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/CSSDK/CSSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDBADA847FD5E7B2F12BBB948903608 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AASDK/AASDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AASDK/AASDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AASDK/AASDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FD07E7615BAEF9E2A9E21E1617BC41A /* Sources */ = {
+		6E9EBF10C287B51F99D2D343FAFE6708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A64069E4DB519D19456AE8D93DE5E8E /* Pods-CSSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B1BD7DC78275080D7D2A7CF61E03B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D50C32514341B02BF858D4BE542599 /* Pods-CSSDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E94E21D042579A8635DA5A32367CA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD4962B7F26C67AD927C798402DBB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		304558F08DBDF993BC4F6B9E9BF222F1 /* PBXTargetDependency */ = {
+		22A7CD78D61A146DC04757C96D41CA38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TASDK;
-			target = 78DE407E53F1578A41CD13CF324D300C /* TASDK */;
-			targetProxy = 7758EDDAB4C407DE3A96942014026A46 /* PBXContainerItemProxy */;
+			name = "AASDK-AASDK_Privacy";
+			target = 1181AED44064D98A74D560E4447007D4 /* AASDK-AASDK_Privacy */;
+			targetProxy = 203987B6F20A31C941D10AB45D79191D /* PBXContainerItemProxy */;
 		};
-		B8C8CD0AB79F141C2E93372CA4828D44 /* PBXTargetDependency */ = {
+		2B69E20AA688C77ED4EE2F13EF61C65B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit_Basics;
+			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
+			targetProxy = BA6AF6F782595BA3634A144AB9FAE9EE /* PBXContainerItemProxy */;
+		};
+		3ACB97C3DF3B262C3A3218EBFBE96E1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CSSDK;
 			target = F847BB16C5A9AAC8F78EAFD76315A297 /* CSSDK */;
-			targetProxy = 1F25E5E69AD1235174A2067DE2F00826 /* PBXContainerItemProxy */;
+			targetProxy = 543F2A05A57649DB7D1003AABDE18366 /* PBXContainerItemProxy */;
+		};
+		5D12294899DDF17B2080CC3F1B11BF1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit_Basics;
+			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
+			targetProxy = 54A0594E8EAF7914C6CFB3ED5DFA55B6 /* PBXContainerItemProxy */;
+		};
+		6B55A0F78E72ACA92CDFB721269D2003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TASDK;
+			target = 78DE407E53F1578A41CD13CF324D300C /* TASDK */;
+			targetProxy = AEE13057C4389DBAD7B3E13224D2F475 /* PBXContainerItemProxy */;
+		};
+		6C043BCF73FD18A920987A95780C4967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAEMKit;
+			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
+			targetProxy = 01F66C320E7223DE76E92E04B1685AE2 /* PBXContainerItemProxy */;
+		};
+		7E7369981A1A4BC7473CF873D2ED2A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TASDK-TASDK_Privacy";
+			target = D97FE7F2BB533BCD3DFA802471B22086 /* TASDK-TASDK_Privacy */;
+			targetProxy = 78FDBA76B08094D35CC85D0E51FEDAA0 /* PBXContainerItemProxy */;
+		};
+		827EE85FC7E7BD67E0FBCEEE30F6D98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKLoginKit;
+			target = 10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */;
+			targetProxy = 9DADA377879A00B953E90E7DCC700284 /* PBXContainerItemProxy */;
+		};
+		876341A1B186E3DCB61C5336D4FE28C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit_Basics;
+			target = 8EA62FEAB23070050EFD4D4508D659E5 /* FBSDKCoreKit_Basics */;
+			targetProxy = 5183EC029ABA2781C29F1D5424B1FFBE /* PBXContainerItemProxy */;
+		};
+		899ED065679157427DE513697D50EEE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBAEMKit;
+			target = 479BDBD165CD08E2159181E58CD2078F /* FBAEMKit */;
+			targetProxy = 75C5F75638FCC98EED2BB8F8358A32C8 /* PBXContainerItemProxy */;
+		};
+		8C14F9E120D2593F0E8D81F0EAD443D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AASDK;
+			target = 9955007234CC082B1B9F3619C719A95C /* AASDK */;
+			targetProxy = EE036EAA02B5DA179026CEC83A0761EC /* PBXContainerItemProxy */;
+		};
+		8F6CF772033AF3F76FC6E1F067EF6F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKLoginKit;
+			target = 10C5885FCB0908EF785774EE52473DAB /* FBSDKLoginKit */;
+			targetProxy = 5CAC6A03B6BBFCF2B0DE32021D214CA6 /* PBXContainerItemProxy */;
+		};
+		A17474F96504F2337180D3A17EB15CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CSSDK-CSSDK_Privacy";
+			target = 45DF3770898C76DAD8230016A31B9A00 /* CSSDK-CSSDK_Privacy */;
+			targetProxy = A2BAF3FC802630A20DBA4E2FF80F1D2A /* PBXContainerItemProxy */;
+		};
+		B19B09E57D4C8B15FEC89326928306E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
+			targetProxy = 58952F5F370AB0B5402D9C49FE58F21B /* PBXContainerItemProxy */;
+		};
+		F5AA3414C1A6702DA7D7F3F9BDDC68F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSDKCoreKit;
+			target = 28907903AF6DD0AD321D92CD660E7E23 /* FBSDKCoreKit */;
+			targetProxy = EDFE399CDF4A407C6E6430937901D32B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		095E3927E585909032FF4D9F974A9967 /* Release */ = {
+		049AF0FD1F0636BA8FBD46FC1BF34E3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DED968F2BD67B5E5567A8BC862A196BA /* TASDK.release.xcconfig */;
+			baseConfigurationReference = 35D5346445A5FF996EC007116F890539 /* FBSDKCoreKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,14 +1010,14 @@
 			};
 			name = Release;
 		};
-		3A2116C39F86016C2EE43C9FCF7B94BA /* Debug */ = {
+		07A9DD2B70275E43AF8CF6F4B167BED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D447B4C16F119BF72F45D9442E5F44E9 /* CSSDK.debug.xcconfig */;
+			baseConfigurationReference = 1BC6202D9A5FF036176CC637ED878B28 /* FBSDKCoreKit_Basics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,147 +1027,24 @@
 			};
 			name = Debug;
 		};
-		52B0C011C1BD8C9F63CDAE04BBEF0739 /* Debug */ = {
+		119D09E5F5790EA605865077798DA9EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A36333663EC46D0F9986F3F5CDFB9CD /* TASDK.debug.xcconfig */;
+			baseConfigurationReference = 43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
+				IBSC_MODULE = TASDK;
+				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		657206F66A7BE1D3C08812DF59AB3999 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF4ADBC2E99A2982FCB0AE2559652663 /* CSSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		71C5D59B141FC103A6B157CB725EF149 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 759D66F37E47AE7D3D5506620A152603 /* Pods-CSSDKDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = TASDK_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		9AB8C50B7E6B5B9C484285154AEDB02D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20FAA03F7A1132768A6DCA10442DEB5 /* Pods-CSSDKDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -558,7 +1097,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -571,41 +1110,515 @@
 			};
 			name = Debug;
 		};
+		2CC63D6CC2B34B017814C7AE890F08EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131A7F65360A3DC3E209C0695CCFADFB /* FBSDKLoginKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344561AC49EA0FF9B258C201CB5E8F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC21B3CBED8D8F30E800AEE542FEA055 /* Pods-CSSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSDKDemo/Pods-CSSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E46721DD92A71C19941AC9E75024940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8AD28044809A8FF3278E266C085625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2604B6D8236BEE418E933992FF2A18 /* FBSDKCoreKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB260E4AC3220F947F4EAD72E23B615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2735BF7131F4B44E6A1CF6769E2D3606 /* Pods-CSSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSDKDemo/Pods-CSSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52144D93614B4F8790008F679D6B92AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF2E8888E433C3F900C4D9C6888FF99 /* FBAEMKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5445391765DE732B6B3B12CC36959AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSDK";
+				IBSC_MODULE = CSSDK;
+				INFOPLIST_FILE = "Target Support Files/CSSDK/ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = CSSDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5B6F93BD988E5D4FB31F7788B4A0C41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD5022A8E99D0E54C193671BEFA85C9 /* AASDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AASDK";
+				IBSC_MODULE = AASDK;
+				INFOPLIST_FILE = "Target Support Files/AASDK/ResourceBundle-AASDK_Privacy-AASDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AASDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		665756089FA0856B534FE59EC43C2084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B47CBF2931FB18ED596F51ABDC7C19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
+				IBSC_MODULE = TASDK;
+				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TASDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7EF8AC81C6242182D1BE5F7971453B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9DF6DC08234A92164AA9F849735D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD5022A8E99D0E54C193671BEFA85C9 /* AASDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27CFC78EAFD02BD40156D3582566BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1427BB6FDCE86417B33E60203BF9C3 /* FBSDKLoginKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCCFFE39199F55E0DB00572E651E10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C734A2E97B89CAB24D6E87DA503AD988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3379D25ED56794FE22FF7A1FC12DAB2 /* FBSDKCoreKit_Basics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA420E0C46EAE523FB264744D3740D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDAE20565F1A838A3977CB3A5C62B8C /* AASDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AASDK";
+				IBSC_MODULE = AASDK;
+				INFOPLIST_FILE = "Target Support Files/AASDK/ResourceBundle-AASDK_Privacy-AASDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AASDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D8AB124A8AC35810363F74E1ED0A6CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A92B320A17CBA71EB7AAD2D6A3C724B /* FBAEMKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB16B8E0258A354F88E5CDB0AC0B9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDAE20565F1A838A3977CB3A5C62B8C /* AASDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4C8C7471585E2ADB0F9CBDF6390312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSDK";
+				IBSC_MODULE = CSSDK;
+				INFOPLIST_FILE = "Target Support Files/CSSDK/ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = CSSDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15D317AA8E09C5ABE8061C3B1F24337B /* Build configuration list for PBXNativeTarget "AASDK-AASDK_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6F93BD988E5D4FB31F7788B4A0C41F /* Debug */,
+				CA420E0C46EAE523FB264744D3740D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D87D4FACE4F0B6778FC27DB2ECB89C2 /* Build configuration list for PBXAggregateTarget "FBAEMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52144D93614B4F8790008F679D6B92AC /* Debug */,
+				D8AB124A8AC35810363F74E1ED0A6CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1531B78FE80C4E170980844EBDF203 /* Build configuration list for PBXAggregateTarget "TASDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCFFE39199F55E0DB00572E651E10D9 /* Debug */,
+				4E46721DD92A71C19941AC9E75024940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
-				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EBAF7D734B891DBAF54DB1678AC6E1F /* Build configuration list for PBXAggregateTarget "CSSDK" */ = {
+		6D3E34AC7BC539108F72AE81C0CC3CE1 /* Build configuration list for PBXNativeTarget "CSSDK-CSSDK_Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A2116C39F86016C2EE43C9FCF7B94BA /* Debug */,
-				657206F66A7BE1D3C08812DF59AB3999 /* Release */,
+				EC4C8C7471585E2ADB0F9CBDF6390312 /* Debug */,
+				5445391765DE732B6B3B12CC36959AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99194AC44A94C5DAF015B415E7CCAB7C /* Build configuration list for PBXAggregateTarget "TASDK" */ = {
+		835E9E650EFFDF6B14F3B05D37E77C67 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52B0C011C1BD8C9F63CDAE04BBEF0739 /* Debug */,
-				095E3927E585909032FF4D9F974A9967 /* Release */,
+				4E8AD28044809A8FF3278E266C085625 /* Debug */,
+				049AF0FD1F0636BA8FBD46FC1BF34E3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF842A2A2217636A6E251EEA30D79B0B /* Build configuration list for PBXNativeTarget "Pods-CSSDKDemo" */ = {
+		88952E31C3810DE299458BA16E9F0634 /* Build configuration list for PBXNativeTarget "TASDK-TASDK_Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71C5D59B141FC103A6B157CB725EF149 /* Debug */,
-				9AB8C50B7E6B5B9C484285154AEDB02D /* Release */,
+				6B47CBF2931FB18ED596F51ABDC7C19E /* Debug */,
+				119D09E5F5790EA605865077798DA9EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A712F469FCA95451E54DF37169AFEE80 /* Build configuration list for PBXAggregateTarget "FBSDKCoreKit_Basics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A9DD2B70275E43AF8CF6F4B167BED4 /* Debug */,
+				C734A2E97B89CAB24D6E87DA503AD988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0CBF356A34278580E95E6AEF43505E /* Build configuration list for PBXAggregateTarget "CSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665756089FA0856B534FE59EC43C2084 /* Debug */,
+				7EF8AC81C6242182D1BE5F7971453B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB252513C948DD31033D1BAC7447006 /* Build configuration list for PBXAggregateTarget "FBSDKLoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27CFC78EAFD02BD40156D3582566BCE /* Debug */,
+				2CC63D6CC2B34B017814C7AE890F08EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1534A7D27CA907C12EC47F6C5466114 /* Build configuration list for PBXAggregateTarget "AASDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9DF6DC08234A92164AA9F849735D1C /* Debug */,
+				DDB16B8E0258A354F88E5CDB0AC0B9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD37583889E92671C37CFA42B3C57BA /* Build configuration list for PBXNativeTarget "Pods-CSSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB260E4AC3220F947F4EAD72E23B615 /* Debug */,
+				344561AC49EA0FF9B258C201CB5E8F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,20 +1,44 @@
 PODS:
-  - CSSDK (2.1.1.5)
+  - AASDK (2.0.0.8):
+    - AASDK/FBSDKLoginKit (= 2.0.0.8)
+  - AASDK/FBSDKLoginKit (2.0.0.8):
+    - FBSDKLoginKit
+  - CSSDK (2.1.1.6)
+  - FBAEMKit (15.1.0):
+    - FBSDKCoreKit_Basics (= 15.1.0)
+  - FBSDKCoreKit (15.1.0):
+    - FBAEMKit (= 15.1.0)
+    - FBSDKCoreKit_Basics (= 15.1.0)
+  - FBSDKCoreKit_Basics (15.1.0)
+  - FBSDKLoginKit (15.1.0):
+    - FBSDKCoreKit (= 15.1.0)
   - TASDK (4.1.1.4)
 
 DEPENDENCIES:
-  - CSSDK (= 2.1.1.5)
+  - AASDK (= 2.0.0.8)
+  - CSSDK (= 2.1.1.6)
   - TASDK (= 4.1.1.4)
 
 SPEC REPOS:
   https://github.com/Avid-ly/iOS-CocoaPods-Spec.git:
+    - AASDK
     - CSSDK
     - TASDK
+  https://github.com/CocoaPods/Specs.git:
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
 
 SPEC CHECKSUMS:
-  CSSDK: d516a95ae50335b0ff22c578e0c7f4c523288857
-  TASDK: 3ea1df22df4a5a9af402cba27d319b041d93dd37
+  AASDK: 902da7817dc264535022d30336adaf81a63a6cb2
+  CSSDK: 6f20035281dc250a7061e5b8d0a9ed623c8daf60
+  FBAEMKit: c7f82b5145d446bcbbcd50485c032689032fc6a2
+  FBSDKCoreKit: 7542746fc63a2a38dd6a865eeb54268341f37b83
+  FBSDKCoreKit_Basics: 92d6b26c0bed30ab09bbdd96dccaa26e6c9978d1
+  FBSDKLoginKit: 4e275d30cf90e92bdf3a7c82857a8642abf23037
+  TASDK: 1930e6af5db50f6ab5e23e8d219c8c96c5d4c764
 
-PODFILE CHECKSUM: c15137ec4f6e2c6e5e8aed3426b9ce3108e54d19
+PODFILE CHECKSUM: 8a822a6f25beba88f8f009203eff38f6c9fce680
 
 COCOAPODS: 1.15.2

@@ -1,15 +1,15 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/Avid-ly/iOS-CocoaPods-Spec.git'
 
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 target 'CSSDKDemo' do
 
 # CSSDK
-pod 'CSSDK', '2.1.1.5'
+pod 'CSSDK', '2.1.1.6'
 
 ## AASDK
-#pod 'AASDK', '2.0.0.7'
+pod 'AASDK', '2.0.0.8'
 
 # TASDK
 pod 'TASDK', '4.1.1.4'

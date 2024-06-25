@@ -1,2 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-CSSDKDemo/Pods-CSSDKDemo-resources.sh
+${PODS_ROOT}/AASDK/Framework/AASDK/AASAccountSDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/AASDK/AASDK_Privacy.bundle
 ${PODS_ROOT}/CSSDK/Framework/CSSDK/CServiceSDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/CSSDK/CSSDK_Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/TASDK/TASDK_Privacy.bundle
