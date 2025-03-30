@@ -30,6 +30,7 @@
 #define AACOUNT_FB_APPID @"fbAppId"
 #define AACOUNT_FB_TOKEN @"fbToken"
 #define AACOUNT_FB_USERID @"fbUserId"
+#define AACOUNT_FB_AUTHENTICATIONTOKEN @"fbAuthenticationToken"
 
 #define ALOGIN_USER_GGID @"ggid"
 #define ALOGIN_USER_TOKEN @"token"

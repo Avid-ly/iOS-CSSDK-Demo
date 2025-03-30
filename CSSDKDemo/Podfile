@@ -6,12 +6,12 @@ platform :ios, '12.0'
 target 'CSSDKDemo' do
 
 # CSSDK
-pod 'CSSDK', '2.1.1.6'
+pod 'CSSDK', '2.1.1.7'
 
 ## AASDK
 pod 'AASDK', '2.0.0.8'
 
 # TASDK
-pod 'TASDK', '4.1.1.4'
+pod 'TASDK', '4.1.2.0'
 
 end

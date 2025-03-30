@@ -3,7 +3,7 @@
 
 //
 //  Created by steve on 2017/7/14.
-//  Copyright © 2017年 samliu. All rights reserved.
+//  Copyright © 2017年  All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

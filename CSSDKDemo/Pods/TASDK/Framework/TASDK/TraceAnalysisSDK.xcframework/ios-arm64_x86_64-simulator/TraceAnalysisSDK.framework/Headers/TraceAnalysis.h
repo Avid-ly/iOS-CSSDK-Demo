@@ -3,7 +3,7 @@
 
 //
 //  Created by samliu on 2017/7/4.
-//  Copyright © 2017年 samliu. All rights reserved.
+//  Copyright © 2017年  All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -186,6 +186,7 @@ extern NSString *const TraceAnalysisLoginTypeUlt;
 extern NSString *const TraceAnalysisLoginTypeApple;
 extern NSString *const TraceAnalysisLoginTypeEmail;
 extern NSString *const TraceAnalysisLoginTypeOther;
+extern NSString *const TraceAnalysisLoginTypeFacebookLimited;
 
 /*
  通用登录上报
@@ -199,12 +200,13 @@ extern NSString *const TraceAnalysisLoginTypeOther;
  2、playerId参数为游戏的用户系统中用户唯一标识
  3、loginToken为登录方式对应的校验凭证
  |--3.1）当登录方式为TraceAnalysisLoginTypeGuest时，此值可不传
- |--3.2）当登录方式为TraceAnalysisLoginTypeFacebook时，此值传facebook返回的openToken
+ |--3.2）当登录方式为TraceAnalysisLoginTypeFacebook时，此值传facebook返回的AccessToken.tokenString
  |--3.3）当登录方式为TraceAnalysisLoginTypeTwitter时，此值传twitter返回的信息拼接成的json字符串，格式：{"twitterId":"xx","twitterUserName":"xx","twitterAuthToken":"xx"}
  |--3.4）当登录方式为TraceAnalysisLoginTypeGamecenter时，此值传GameCenter返回的teamPlayerID或playerID
  |--3.5）当登录方式为TraceAnalysisLoginTypeApple时，此值传apple返回的identityToken字符串
  |--3.6）当登录方式为TraceAnalysisLoginTypeOther时，此值传对应的登录方式返回的能校验用户合法性的对应参数
  |--3.7）当登录方式为TraceAnalysisLoginTypeEmail时，此值传email邮箱地址
+ |--3.8）当登录方式为TraceAnalysisLoginTypeFacebookLimited时，此值传facebook返回的FBSDKAuthenticationToken.currentAuthenticationToken.tokenString
  4、extension为扩展参数，可扩展一些透传参数，选填，默认填nil
  */
 + (void)logCommonLoginWithType:(NSString *)loginType
@@ -274,6 +276,30 @@ extern NSString *const TraceAnalysisLoginTypeOther;
  @param receiptDataString 第三方支付平台单据
  */
 + (void)ThirdpartyLogZFWithPlayerId:(NSString *)playerId gameAccountServer:(NSString *)gameAccountServer thirdparty:(NSString *)thirdparty receiptDataString:(NSString *)receiptDataString;
+
+#pragma mark - Auto ZF log（自动支付上报）
+
+/**
+ 开启自动上报支付
+ */
++ (void)startTransactionObserver;
+
+/**
+ 停止自动上报支付
+ */
++ (void)stopTransactionObserver;
+
+#pragma mark - StoreKit v2版本 支付上报
+
+/**
+ StoreKit v2版本 内购支付 上报
+ 
+ @param playerId          游戏用户ID
+ @param gameAccountServer 游戏区/服ID
+ @param transactionId     订单ID（Transaction.id）
+ @param jwsRepresentation 内购收据（VerificationResult.jwsRepresentation）
+ */
++ (void)StoreKit2LogZFWithPlayerId:(NSString *)playerId gameAccountServer:(NSString *)gameAccountServer transactionId:(NSString *)transactionId jwsRepresentation:(NSString *)jwsRepresentation extraMap:(NSDictionary *)extraMap;
 
 #pragma mark - Active log（在线时长打点）
 

@@ -1027,22 +1027,57 @@
 			};
 			name = Debug;
 		};
-		119D09E5F5790EA605865077798DA9EF /* Release */ = {
+		10923CA290A70DBD8A18400CD9CC6C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */;
+			baseConfigurationReference = 9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
-				IBSC_MODULE = TASDK;
-				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TASDK_Privacy;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		170FBA58F7EF2F7038EB147F03F34E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		19324CFB87C8038C80456D37657F1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1151,24 +1186,6 @@
 			};
 			name = Release;
 		};
-		4E46721DD92A71C19941AC9E75024940 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4E8AD28044809A8FF3278E266C085625 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A2604B6D8236BEE418E933992FF2A18 /* FBSDKCoreKit.debug.xcconfig */;
@@ -1224,23 +1241,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		5445391765DE732B6B3B12CC36959AA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSDK";
-				IBSC_MODULE = CSSDK;
-				INFOPLIST_FILE = "Target Support Files/CSSDK/ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = CSSDK_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		5B6F93BD988E5D4FB31F7788B4A0C41F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1321,33 +1321,16 @@
 			};
 			name = Release;
 		};
-		665756089FA0856B534FE59EC43C2084 /* Debug */ = {
+		80D2C61006048876CC93E0D5ADDB1F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6B47CBF2931FB18ED596F51ABDC7C19E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */;
-			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
-				IBSC_MODULE = TASDK;
-				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TASDK_Privacy;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSDK";
+				IBSC_MODULE = CSSDK;
+				INFOPLIST_FILE = "Target Support Files/CSSDK/ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CSSDK_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1355,14 +1338,14 @@
 			};
 			name = Debug;
 		};
-		7EF8AC81C6242182D1BE5F7971453B93 /* Release */ = {
+		937832D843E357F48622866C33915EB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */;
+			baseConfigurationReference = 43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1407,22 +1390,39 @@
 			};
 			name = Debug;
 		};
-		BCCFFE39199F55E0DB00572E651E10D9 /* Debug */ = {
+		B3B266BA2B279884581546E22A195137 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C02BD32A8904FB72D98E1625AB5EFBCB /* TASDK.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
+				IBSC_MODULE = TASDK;
+				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TASDK_Privacy;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		BD123678B0B2D087E9C5E714DB681D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C1F477FB813EF2BBB83F7F15C4070A /* TASDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TASDK";
+				IBSC_MODULE = TASDK;
+				INFOPLIST_FILE = "Target Support Files/TASDK/ResourceBundle-TASDK_Privacy-TASDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TASDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		C734A2E97B89CAB24D6E87DA503AD988 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1439,6 +1439,23 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9D9B59408FB140D503429CB1C97040F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71169906EA4B2C7EFE16AD72FB09A4D2 /* CSSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSDK";
+				IBSC_MODULE = CSSDK;
+				INFOPLIST_FILE = "Target Support Files/CSSDK/ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CSSDK_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1495,23 +1512,6 @@
 			};
 			name = Release;
 		};
-		EC4C8C7471585E2ADB0F9CBDF6390312 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DD96FBA8DBE9A442BFCE7FFDFC1F9E8 /* CSSDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSSDK";
-				IBSC_MODULE = CSSDK;
-				INFOPLIST_FILE = "Target Support Files/CSSDK/ResourceBundle-CSSDK_Privacy-CSSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = CSSDK_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1536,8 +1536,8 @@
 		3D1531B78FE80C4E170980844EBDF203 /* Build configuration list for PBXAggregateTarget "TASDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCCFFE39199F55E0DB00572E651E10D9 /* Debug */,
-				4E46721DD92A71C19941AC9E75024940 /* Release */,
+				19324CFB87C8038C80456D37657F1094 /* Debug */,
+				937832D843E357F48622866C33915EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1554,8 +1554,8 @@
 		6D3E34AC7BC539108F72AE81C0CC3CE1 /* Build configuration list for PBXNativeTarget "CSSDK-CSSDK_Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC4C8C7471585E2ADB0F9CBDF6390312 /* Debug */,
-				5445391765DE732B6B3B12CC36959AA9 /* Release */,
+				80D2C61006048876CC93E0D5ADDB1F61 /* Debug */,
+				C9D9B59408FB140D503429CB1C97040F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1572,8 +1572,8 @@
 		88952E31C3810DE299458BA16E9F0634 /* Build configuration list for PBXNativeTarget "TASDK-TASDK_Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B47CBF2931FB18ED596F51ABDC7C19E /* Debug */,
-				119D09E5F5790EA605865077798DA9EF /* Release */,
+				B3B266BA2B279884581546E22A195137 /* Debug */,
+				BD123678B0B2D087E9C5E714DB681D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1590,8 +1590,8 @@
 		AA0CBF356A34278580E95E6AEF43505E /* Build configuration list for PBXAggregateTarget "CSSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				665756089FA0856B534FE59EC43C2084 /* Debug */,
-				7EF8AC81C6242182D1BE5F7971453B93 /* Release */,
+				10923CA290A70DBD8A18400CD9CC6C2D /* Debug */,
+				170FBA58F7EF2F7038EB147F03F34E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
